@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
     int a,b;
@@ -11,7 +8,7 @@ int main() {
         printf("False");
     }
     else{
-        printf("True")
+        printf("True");
     }
     return 0;
 }
