@@ -10,13 +10,13 @@ int main() {
     if(a > b && a > c){
         printf("%d",a);
     }
-    if(b > c && b > a){
+    else if(b > c && b > a){
         printf("%d",b);
     }
-    if(c > a && c > b){
+    else if(c > a && c > b){
         printf("%d",c);
     }
-    if(a==b || b == c || c == a || a==b==c){
+    else if(a==b || b == c || c == a || a==b==c){
         printf("%d", a);
     }
 
