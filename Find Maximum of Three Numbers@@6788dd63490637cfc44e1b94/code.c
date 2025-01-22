@@ -16,5 +16,9 @@ int main() {
     if(c >= a && c >= b){
         printf("%d",c);
     }
+    if(a==b || b == c || c == a || a==b==c){
+        printf("%d", a);
+    }
+
     return 0;
 }
