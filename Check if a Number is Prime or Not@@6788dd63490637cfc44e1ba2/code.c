@@ -17,11 +17,8 @@ int is_prime(n){
 }
 int main() {
     int a;
-    scanf("%d",&a);
-    if(a<=1){
-        printf("Not Prime")
-    }
-    else if(is_prime(a)){
+    scanf("%d",&a)
+    if(is_prime(a)){
         printf("Prime");
     }
     else{
