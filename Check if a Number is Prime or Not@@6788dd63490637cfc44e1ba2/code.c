@@ -3,7 +3,7 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-int is_prime(n){  
+int is_prime(int n){  
     if (i == 0 || i == 1){
         return 0;
     }
