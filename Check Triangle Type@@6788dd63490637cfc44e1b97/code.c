@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if((a==b!=c) ||(a!=b==c) || (c==a!=b)){
+    if((a==b) ||(b==c) || (c==a)){
         printf("Isosceles");
     }
     else if(a == b == c == a){
