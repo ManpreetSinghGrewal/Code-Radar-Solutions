@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     float a;
     scanf("%f",&a);
     printf("You entered: %.4f",a);
