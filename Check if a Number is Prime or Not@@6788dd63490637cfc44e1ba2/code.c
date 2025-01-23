@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int is_prime(int n){  
-    if (i<=1){
+    if (n<=1){
         return 0;
     }
     for(int i = 2; i * i <= n; i++){
