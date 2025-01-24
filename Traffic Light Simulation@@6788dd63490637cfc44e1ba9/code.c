@@ -9,14 +9,14 @@ int main() {
     scanf("%c".&a);
     switch (a) {
         case 'R' :
-        printf("Stop");
-        break;
+            printf("Stop");
+            break;
         case 'G' :
-        printf("Go");
-        break;
+            printf("Go");
+            break;
         case 'Y' :
-        printf("Go Slow");
-        break;
+            printf("Go Slow");
+            break;
     }
     return 0;
 }
