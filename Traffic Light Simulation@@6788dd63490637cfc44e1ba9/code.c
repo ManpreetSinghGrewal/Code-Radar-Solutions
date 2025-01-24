@@ -14,7 +14,7 @@ int main() {
         printf("Go");
     }
     else if(a == 'Y'){
-        printf("Go Slow");
+        printf("Slow Down");
     }
     else{
         printf("Invalid");
