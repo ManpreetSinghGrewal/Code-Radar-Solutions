@@ -6,14 +6,14 @@ char* welcome() {
 
 int main() {
     char a;
-    scanf("%c".&a);
-    if(a = R){
+    scanf("%c",&a);
+    if(a == 'R'){
         printf("Stop");
         break; }
-    if(a = G){
+    if(a == 'G'){
         printf("Go");
         break;}
-    if(a = Y){
+    if(a == 'Y'){
         printf("Go Slow");
         break;
     }
