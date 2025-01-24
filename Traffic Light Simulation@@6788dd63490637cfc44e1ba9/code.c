@@ -9,13 +9,15 @@ int main() {
     scanf("%c",&a);
     if(a == 'R'){
         printf("Stop");
-        break; }
-    if(a == 'G'){
+    }
+    else if(a == 'G'){
         printf("Go");
-        break;}
-    if(a == 'Y'){
+    }
+    else if(a == 'Y'){
         printf("Go Slow");
-        break;
+    }
+    else{
+        printf("Invalid");
     }
     return 0;
 }
