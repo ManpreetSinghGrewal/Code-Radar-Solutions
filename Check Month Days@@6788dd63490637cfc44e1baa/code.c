@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if(a>=1 && a<=12){
+    if(a >= 1 && a <= 12){
         if(a==2){
             printf("28");
         }
@@ -20,6 +20,7 @@ int main() {
     else{
         printf("Invalid month");
     }
-    }
+    return 0;
+}
     return 0;
 }
