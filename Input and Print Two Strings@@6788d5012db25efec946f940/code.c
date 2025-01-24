@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char a[90];
     char b[90];
-    scanf(" %c %c",&a,&b);
-    printf("You entered : %89c %89c ",a,b);
+    scanf(" %89s %89s",&a,&b);
+    printf("You entered : %s %s ",a,b);
     return 0;
 }
