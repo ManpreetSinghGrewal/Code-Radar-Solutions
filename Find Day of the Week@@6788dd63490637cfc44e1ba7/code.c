@@ -7,19 +7,19 @@ char* welcome() {
 int main() {
     int a;
     switch(a){
-        case 1;
+        case 1:
         printf("Monday");
-        case 2;
+        case 2:
         printf("Tuesday");
-        case 3;
+        case 3:
         printf("Wednesday");
-        case 4;
+        case 4:
         printf("Thursday");
-        case 5;
+        case 5:
         printf("Friday");
-        case 6;
+        case 6:
         printf("Saturday");
-        case 7;
+        case 7:
         printf("Sunday");
     }
     return 0;
