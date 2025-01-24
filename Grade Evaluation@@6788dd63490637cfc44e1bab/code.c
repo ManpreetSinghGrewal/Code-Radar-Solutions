@@ -9,13 +9,13 @@ int main() {
     scanf("%d",&a);
     switch(a){
         case 'A':
-        printf("Excellent");
+            printf("Excellent");
         case 'B':
-        printf("Good");
+            printf("Good");
         case 'C';
-        printf("Average");
+            printf("Average");
         case 'D';
-        printf("Below Average");
+            printf("Below Average");
     }
     return 0;
 }
