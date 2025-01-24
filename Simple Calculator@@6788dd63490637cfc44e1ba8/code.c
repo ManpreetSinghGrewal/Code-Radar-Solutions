@@ -14,7 +14,7 @@ int main() {
         printf("%d",a*b);
         break;
         case '/':
-        printf("%.1f",a/b);
+        printf("%.3f",a/b);
         break;
     }
     return 0;
