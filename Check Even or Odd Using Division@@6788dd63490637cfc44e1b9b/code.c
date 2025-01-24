@@ -10,7 +10,7 @@ int main() {
     if((a / 2) * a == a){
         printf("Even");
     }else{
-        printf("Not Even");
+        printf("Odd");
     }
     return 0;
 }
