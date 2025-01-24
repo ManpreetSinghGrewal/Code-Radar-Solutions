@@ -18,8 +18,8 @@ int main() {
             printf("%d",a/b);
         else{
             printf("error");
+            break;
         }
-        break;
         }
         
         break;
