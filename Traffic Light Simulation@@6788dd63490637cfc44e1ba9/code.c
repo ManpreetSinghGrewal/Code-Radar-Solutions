@@ -7,16 +7,15 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c".&a);
-    switch (a) {
-        case 'R' :
-            printf("Stop");
-            break;
-        case 'G' :
-            printf("Go");
-            break;
-        case 'Y' :
-            printf("Go Slow");
-            break;
+    if(a = R){
+        printf("Stop");
+        break;
+    if(a = G){
+        printf("Go");
+        break;
+    if(a = Y){
+        printf("Go Slow");
+        break;
     }
     return 0;
 }
