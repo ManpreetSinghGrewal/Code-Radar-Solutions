@@ -16,16 +16,13 @@ int main() {
         case '/':
             if(b != 0 ){
                 printf("%d",a/b);
+            }
             else{
                 printf("error");
-                break;
-        }
-        }
-        
-        break;
+                break; }
         default:
-        printf("invalid operator");
-        break;
+            printf("invalid operator");
+            break;
     }
     return 0;
 }
