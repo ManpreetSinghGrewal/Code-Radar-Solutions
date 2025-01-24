@@ -7,14 +7,19 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if((a=1) || (a=3) || (a=5) || (a=7) || (a=9) || (a=11)){
-        printf("31");
-    }
-    else if(a=2){
-        printf("28");
-    }
+    if(a>=1 && a<=12){
+        if(a==2){
+            printf("28");
+        }
+        else if(a == 4 || a == 6 || a == 9 || a == 11){
+            printf("30");
+        }
+        else{
+            printf("31");
+        }
     else{
-        print("30");
+        printf("Invalid month");
+    }
     }
     return 0;
 }
