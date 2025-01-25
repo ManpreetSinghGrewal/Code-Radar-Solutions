@@ -7,21 +7,29 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a){
-        case 1:
+    if(a == 1){
         printf("Monday");
-        case 2:
+    }
+    else if(a == 2){
         printf("Tuesday");
-        case 3:
+    }
+    else if(a == 3){
         printf("Wednesday");
-        case 4:
+    }
+    else if(a == 4){
         printf("Thursday");
-        case 5:
+    }
+    else if(a == 5){
         printf("Friday");
-        case 6:
+    }
+    else if(a == 6){
         printf("Saturday");
-        case 7:
+    }
+    else if(a == 7){
         printf("Sunday");
+    }
+    else{
+        printf("Invalid");
     }
     return 0;
 }
