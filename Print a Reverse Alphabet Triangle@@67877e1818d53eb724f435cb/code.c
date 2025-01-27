@@ -14,7 +14,7 @@ int main() {
             char num = char(di);
             printf("%c",num);
             a++;
-        }
+        }printf("\n");
     }
     return 0;
 }
