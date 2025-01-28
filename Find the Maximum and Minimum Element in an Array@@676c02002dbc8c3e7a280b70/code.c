@@ -7,9 +7,9 @@ char* welcome() {
 int main() {
     int N;
     int a[N];
-    scanf("%d",N);
+    scanf("%d",&N);
     for(int i = 0;i<=N-1;i++){
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     greater = a[0];
     for(int i = 0;i<=N-1;i++){
@@ -24,6 +24,6 @@ int main() {
                 minimum = a[i];
             }
         }
-    }printf("%d %d",greater,minimum);
+    }printf("%d %d",minimum,greater);
     return 0;
 }
