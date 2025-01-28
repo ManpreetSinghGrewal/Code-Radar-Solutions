@@ -9,11 +9,11 @@ int main() {
     
     scanf("%d",&N);
     int a[N];
-    for(int i = 0;i<=N-1;i++){
+    for(int i = 0;i <= N - 1;i++){
         scanf("%d",&a[i]);
     }
     int greater = a[0];
-    for(int i = 0;i<=N-1;i++){
+    for(int i = 0;i <= N - 1;i++){
         if(a[i] > greater){
             greater = a[i];
         }
