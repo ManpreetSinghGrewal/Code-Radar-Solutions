@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     int N;
-    int a[N];
-    scanf("%d",&N);
+    
+    scanf("%d",&N);int a[N];
     for(int i = 0;i<=N-1;i++){
         scanf("%d",&a[i]);
     }
