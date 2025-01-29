@@ -7,17 +7,21 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    num[n];
+    int num[n];
     for(int i =0;i<n;i++){
         scanf("%d",&num[i]);
     }
-    if(for(int j = 0;j<=n-1;j++){
-        num[j]<=num[j+1];
-    }){
+    int is_sorted = 1;
+    for(int j = 0;j<=n-1;j++){
+        if(num[j]>num[j+1]){
+            is_sorted = 0;
+            break;
+        }
+    }if(is_sorted){
         printf("Sorted");
-    }
-    else{
+    }else{
         printf("Not Sorted");
     }
+      
     return 0;
 }
