@@ -13,7 +13,7 @@ int main() {
     }
     int is_sorted = 0;
     for(int j = 0;j<n;j++){
-        if(num[j]<=num[j+1]){
+        if(num[j]<num[j+1]){
             is_sorted = 1;
             break;
         }
