@@ -20,6 +20,5 @@ int main() {
         }
     }
     printf("%d %d",ev,od);
-    for int(i)
     return 0;
 }
