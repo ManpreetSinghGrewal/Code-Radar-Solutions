@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     int num[n];
     for(int i =0;i<n;i++){
-        scanf("%d",&num[i]);
+        scanf("%d ",&num[i]);
     }
     int is_sorted = 1;
     for(int j = 0;j<=n-1;j++){
