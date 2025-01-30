@@ -3,10 +3,12 @@ int main() {
     int n;
     scanf("%d",&n);
     for(int i =1;i<=n;i++){
-        char di = char(n);
-        for(char j = 'A';j<=(char)n;j--){
-            printf("%c ",j);
-        }printf("\n");
+        for(int j = 1;j<=n-i+1;j++){
+            int di = 64 + i;
+            char ch = (char)di;
+            printf("%c ",ch);
+            
+        }
     }
     return 0;
 }
