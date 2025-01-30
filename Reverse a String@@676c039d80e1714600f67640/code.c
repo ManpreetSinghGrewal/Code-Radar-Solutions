@@ -11,7 +11,7 @@ int main() {
     for(int i= 0;i<=89;i++){
         int k = 89;
         ch[k] = s[i];
-        k =k-1;
+        k-- ;
     }
     printf("%89s",ch);
 
