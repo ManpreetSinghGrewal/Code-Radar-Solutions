@@ -15,7 +15,7 @@ int main() {
         k-- ;
     }
     ch[90 -(k + 1 )] = '\0';
-    printf("%89s",ch);
+    printf("%s",ch);
 
     return 0;
 }
