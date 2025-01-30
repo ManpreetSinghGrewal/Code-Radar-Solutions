@@ -13,7 +13,7 @@ int main() {
         ch[k] = s[i];
         k =k-1;
     }
-    printf("%89s",ch)
+    printf("%89s",ch);
 
     return 0;
 }
