@@ -13,9 +13,14 @@ int main() {
                 for(int k =1;k<=n - i;k++){
                     printf(" ");
                 }
-                for(int m =1;m<=2*i-1)
+                for(int m =1;m<=2*i-1;m++){
+                    printf("*");
+                }
                 }
             }
+         else{
+            printf("****");
+         }   
         }
     }
     return 0;
