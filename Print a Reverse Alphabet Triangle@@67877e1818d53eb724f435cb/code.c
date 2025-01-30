@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&n);
     for(int i =1;i<=n;i++){
         char di = char(n);
-        for(char j = 'di';j<=n-i;j--){
+        for(char j = 'A';j<=di;j--){
             printf("%c ",j);
         }printf("\n");
     }
