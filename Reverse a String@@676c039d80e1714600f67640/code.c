@@ -9,7 +9,7 @@ int main() {
     scanf("%89s",s);
     char ch[90];
     int k = 89;
-    for(int i= 0;i<90;i++){
+    for(int i= 0;i < 90;i++){
         if(s[i] == '\0')break;
         ch[k] = s[i];
         k-- ;
