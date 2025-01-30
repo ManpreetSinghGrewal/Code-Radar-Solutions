@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char s[90];
-    scanf("%89s",&s);
+    scanf("%89s",s);
     char ch[90];
     int k = 89;
     for(int i= 0;i<90;i++){
