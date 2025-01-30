@@ -12,9 +12,9 @@ int main() {
     for(int i= 0;i < 90;i++){
         if(s[i] == '\0')break;
         ch[k] = s[i];
-        k-- ;
+        k--;
     }
-    ch[90 -(k + 1 )] = '\0';
+    ch[90 - (k + 1 )] = '\0';
     printf("%s",ch);
 
     return 0;
