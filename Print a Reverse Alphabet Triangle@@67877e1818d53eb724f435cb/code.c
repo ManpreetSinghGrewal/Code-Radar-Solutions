@@ -8,7 +8,7 @@ int main() {
             char ch = (char)di;
             printf("%c ",ch);
             
-        }printf("\n")
+        }printf("\n");
     }
     return 0;
 }
