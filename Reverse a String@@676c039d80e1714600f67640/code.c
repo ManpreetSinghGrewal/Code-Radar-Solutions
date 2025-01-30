@@ -14,7 +14,7 @@ int main() {
         ch[k] = s[i];
         k-- ;
     }
-    
+    ch[90 -(k + 1 )] = '\0';
     printf("%89s",ch);
 
     return 0;
