@@ -10,8 +10,9 @@ int main() {
     char ch[90];
     int k = 89;
     for(int i= 0;i < 90;i++){
-        if(s[i] == '\0')break;
         ch[k] = s[i];
+        if(s[i] == '\0')break;
+        
         k--;
     }
     ch[90 - (k + 1 )] = '\0';
