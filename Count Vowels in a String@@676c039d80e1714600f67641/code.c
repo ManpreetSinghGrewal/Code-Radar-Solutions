@@ -15,9 +15,6 @@ int main() {
             vsize ++;
             i++;
         }
-        else{
-            i++;
-        }
     }
     printf("%d",vsize);
     return 0;
