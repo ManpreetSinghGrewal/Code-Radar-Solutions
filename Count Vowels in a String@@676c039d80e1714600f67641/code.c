@@ -8,8 +8,7 @@ char* welcome() {
 int main() {
     char str[99];
     scanf("%98[^\n]",&str);
-    int i = 0;
-    vsize = 0;
+    int vsize = 0;
     while(str[i] !='\0'){
         if(str[vsize] == 'a' || str[vsize]== 'e' || str[vsize]=='i' || str[vsize]=='o' || str[vsize] == 'u'){
             vsize++;
