@@ -11,7 +11,7 @@ int printarr(int arr[n],int n){
 
 int main() {
     int n;
-    scnaf("%d",&n);
+    scanf("%d",&n);
     int num[n];
     for(int i = 0;i<n;i++){
         scanf("%d",&num[i]);
