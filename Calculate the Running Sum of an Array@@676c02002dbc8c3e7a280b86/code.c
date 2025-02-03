@@ -3,7 +3,7 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-int printarr(int arr[n];int n){
+int printarr(int arr[n],int n){
     for(int i = 0;i<n;i++){
         printf("%d ",arr[i]);
     }
