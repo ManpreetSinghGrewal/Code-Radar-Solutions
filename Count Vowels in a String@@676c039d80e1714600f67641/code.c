@@ -9,7 +9,7 @@ int main() {
     char str[90];
     scanf("%[^\n]",&str);
     int i = 0;
-    vsize = 1;
+    vsize = 0;
     while(str[i]!='\0'){
         if(str[i] == 'a' || str[i]== 'e' || str[i]=='i' || str[i]=='o' || str[i] == 'u'){
             vsize ++;
