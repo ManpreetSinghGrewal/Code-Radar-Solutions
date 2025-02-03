@@ -24,7 +24,6 @@ int main() {
         }
         
     }
-    return printarr(new[],n);
 
     return 0;
 }
