@@ -24,7 +24,7 @@ int main() {
             // nea[i] = int num[j - 1] + int num[j - 2];
         }
         
-    }printarr(nea[n],int n);
+    }printarr(int nea[n],n);
 
     return 0;
 }
