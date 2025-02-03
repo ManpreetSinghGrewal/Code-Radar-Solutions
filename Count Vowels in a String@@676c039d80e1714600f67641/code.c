@@ -11,11 +11,10 @@ int main() {
     int i = 0;
     vsize = 0;
     while(str[i]!='\0'){
-        if(str[i] == 'a' || str[i]== 'e' || str[i]=='i' || str[i]=='o' || str[i] == 'u'){
+        if(str[vsize] == 'a' || str[vsize]== 'e' || str[vsize]=='i' || str[vsize]=='o' || str[vsize] == 'u'){
             vsize++;
             i++;
         }
-        vsize++;
     }
     printf("%d",vsize);
     return 0;
