@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char str[];
+    char str[90];
     scanf("%[^\n]",&str);
     return 0;
 }
