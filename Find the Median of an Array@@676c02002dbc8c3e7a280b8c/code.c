@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    int num[];
+    int num[90];
     for(int i = 0;i<n;i++){
         scanf("%d ",&num[i]);
     }
