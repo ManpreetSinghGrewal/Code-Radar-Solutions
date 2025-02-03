@@ -16,6 +16,10 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d",&num[i]);
     }
+    int new[n];
+    for(int j = 2;j<n;j++){
+
+    }
 
     return 0;
 }
