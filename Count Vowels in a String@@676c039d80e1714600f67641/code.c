@@ -10,12 +10,11 @@ int main() {
     scanf("%[^\n]",&str);
     int i = 0;
     vsize = 0;
-    while(str[i]!='\0'){
+    while(str[i] !='\0'){
         if(str[vsize] == 'a' || str[vsize]== 'e' || str[vsize]=='i' || str[vsize]=='o' || str[vsize] == 'u'){
             vsize++;
-            i++;
         }
-    }
+    }vsize++
     printf("%d",vsize);
     return 0;
 }
