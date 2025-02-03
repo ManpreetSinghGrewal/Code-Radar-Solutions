@@ -16,5 +16,6 @@ int main() {
         sum = sum + num[i];
     }
     int median = sum / n;
+    printf("%d",median);
     return 0;
 }
