@@ -12,7 +12,7 @@ int main() {
     scanf("%d",&n);
     int num[n];
     for(int i = 0;i<n;i++){
-        scanf("%d",&num[i]);
+        scanf("%d ",&num[i]);
     }
     int nea[n];
     nea[0] = num[0];
