@@ -7,7 +7,7 @@ char* welcome() {
 
 int main() {
     char str[99];
-    scanf("%[^\n]",&str);
+    scanf("%98[^\n]",&str);
     int i = 0;
     vsize = 0;
     while(str[i] !='\0'){
