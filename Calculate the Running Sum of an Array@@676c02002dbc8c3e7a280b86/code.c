@@ -17,7 +17,7 @@ int main() {
     int nea[n];
     nea[0] = num[0];
     for(int j = 1;j<n;j++){ 
-            nea[j] = num[j - 1] + num[j]; 
+            nea[j] = nea[j - 1] + nea[j]; 
         }  
     for(int i = 0;i<n;i++){
         printf("%d ",nea[i]);
