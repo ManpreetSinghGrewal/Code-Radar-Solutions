@@ -18,7 +18,7 @@ int main() {
     nea[0] = num[0];
     for(int j = 2;j<n;j++){
         for(int k = 0 ; k<n;k++){
-            nea[j] = num[k+1] + num[k + 2]; 
+            nea[j] = num[j - 1] + num[j - 2]; 
         }  
     } 
     for(int i = 0;i<n;i++){
