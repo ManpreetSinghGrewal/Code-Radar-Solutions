@@ -19,11 +19,10 @@ int main() {
     for(int j = 2;j<n;j++){
         for(int k = 0 ; k<n;k++){
             nea[j] = num[k+1] + num[k + 2]; 
-            // nea[i] = int num[j - 1] + int num[j - 2];
         }  
     } 
     for(int i = 0;i<n;i++){
-        printf("%d ",nea[i]);
+        printf("%u ",nea[i]);
     }
 
     return 0;
