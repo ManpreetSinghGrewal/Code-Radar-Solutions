@@ -4,9 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int printarr(int arr[],int n){
-    for(int i = 0;i<n;i++){
-        printf("%d ",arr[i]);
-    }
+   
 }
 
 int main() {
@@ -24,7 +22,10 @@ int main() {
             // nea[i] = int num[j - 1] + int num[j - 2];
         }
         
-    }printarr(nea[n],n);
+    } 
+    for(int i = 0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
 
     return 0;
 }
