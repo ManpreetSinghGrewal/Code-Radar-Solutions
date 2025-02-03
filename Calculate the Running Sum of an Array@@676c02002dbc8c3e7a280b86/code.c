@@ -23,7 +23,8 @@ int main() {
             new[i] = num[j - 1] + num[j - 2];
         }
         
-    }printarr(new[],int n);
+    }
+    return printarr(new[],n);
 
     return 0;
 }
