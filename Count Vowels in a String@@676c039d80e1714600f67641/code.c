@@ -13,7 +13,7 @@ int main() {
         if(str[vsize] == 'a' || str[vsize]== 'e' || str[vsize]=='i' || str[vsize]=='o' || str[vsize] == 'u'){
             vsize++;
         }
-    }vsize++
+    }vsize++;
     printf("%d",vsize);
     return 0;
 }
