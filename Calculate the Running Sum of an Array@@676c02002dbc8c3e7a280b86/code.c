@@ -22,7 +22,7 @@ int main() {
         }  
     } 
     for(int i = 0;i<n;i++){
-        printf("%u ",nea[i]);
+        printf("%d ",nea[i]);
     }
 
     return 0;
