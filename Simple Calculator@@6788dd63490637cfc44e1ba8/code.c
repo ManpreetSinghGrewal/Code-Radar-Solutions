@@ -21,9 +21,9 @@ int main() {
             else{
                 printf("error");
                 break; }
-        default:
-            printf("invalid operator");
-            break;
+        // default:
+        //     printf("invalid operator");
+        //     break;
     }
     return 0;
 }
