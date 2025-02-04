@@ -14,8 +14,9 @@ int main() {
     int t;
     scanf("%d ",&t);
     for(int i = 0 ; i<n;i++){
-        if(t = num[i]){
+        if(t == num[i]){
             printf("%d",i);
+            break;
         }
         else{
             printf("-1");
