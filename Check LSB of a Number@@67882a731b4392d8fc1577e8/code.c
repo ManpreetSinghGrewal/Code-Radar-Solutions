@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int lcb = c & 1;
-    if(lcb == 1){
+    if(lcb =1){
         printf("Set");
     }
     else if(lcb != 0){
