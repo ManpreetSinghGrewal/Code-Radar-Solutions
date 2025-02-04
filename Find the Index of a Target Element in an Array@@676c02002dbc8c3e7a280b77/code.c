@@ -14,12 +14,16 @@ int main() {
     printf("");
     int t;
     scanf("%d",&t);
+    int found = 0;
     for(int i = 0 ; i < n;i++){
         if(t == num[i]){
             printf("%d",i);
+            found = 1;
             break;
         }
-       
+    
+    }if(!found){
+        printf("-1");
     }
     return 0;
 }
