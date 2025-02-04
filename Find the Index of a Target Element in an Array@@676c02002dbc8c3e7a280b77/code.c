@@ -11,6 +11,7 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d ", &num[i]);
     }
+    printf("\n");
     int t;
     scanf("%d",&t);
     for(int i = 0 ; i < n;i++){
