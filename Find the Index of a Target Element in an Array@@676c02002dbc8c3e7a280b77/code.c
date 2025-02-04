@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &num[i]);
     }
     int t;
-    scanf("%d",&t);
+    scanf("%d ",&t);
     for(int i = 0 ; i<n;i++){
         if(t = num[i]){
             printf("%d",i);
