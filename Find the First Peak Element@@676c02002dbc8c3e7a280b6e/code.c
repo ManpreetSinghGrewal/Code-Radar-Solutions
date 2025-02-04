@@ -11,9 +11,6 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(n<3){
-        printf("-1");
-    }
     if(arr[0] > arr[1]){
         printf("%d",arr[0]);
     }
