@@ -18,7 +18,8 @@ int main() {
         if(arr[i] > arr[i - 1] && arr[i] > arr[i + 1]){
             printf("%d",arr[i]);
             
-        }else if(arr[n - 1] > arr[n - 2]){
+        }
+    if(arr[n - 1] > arr[n - 2]){
         printf("%d", arr[n-1]);
     }
     }
