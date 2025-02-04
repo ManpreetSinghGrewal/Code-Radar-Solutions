@@ -7,6 +7,12 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    printf("%d",n >> 31 & 1);
+    int msb = (n >> 31) & 1;
+    if(msb){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     return 0;
 }
