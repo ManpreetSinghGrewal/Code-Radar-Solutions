@@ -25,7 +25,4 @@ int main() {
     if(arr[n - 1] > arr[n - 2]){
         printf("%d", arr[n-1]);
     }
-    else{
-        printf("No element found");
-    }
 }
