@@ -14,5 +14,9 @@ int main() {
     else if(a != 0){
         printf("Not Set");
     }
+    else{
+        printf("Not Set");
+    }
+
     return 0;
 }
