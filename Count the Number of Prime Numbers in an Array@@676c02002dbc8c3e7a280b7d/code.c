@@ -21,7 +21,7 @@ int main() {
     }
     int count ;
     for(int j= 0;j<n;j++){
-        if(isPrime(int arr[j])){
+        if(isPrime(arr[j])){
             count = count + 1;
         }
         else{
