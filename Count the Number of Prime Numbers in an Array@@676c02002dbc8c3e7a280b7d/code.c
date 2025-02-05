@@ -27,6 +27,6 @@ int main() {
             count = count + 0;
         } 
         }
-    }printf("%d",count);
+    }
     return 0;
 }
