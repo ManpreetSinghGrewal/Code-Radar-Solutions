@@ -19,7 +19,7 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int count ;
+    int count = 0;
     for(int j= 0;j<n;j++){
         if(isPrime(arr[j])){
             count = count + 1;
