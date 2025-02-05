@@ -21,12 +21,13 @@ int main() {
     int count = 0;
     for(int j= 0;j<n;j++){
         if(isPrime(arr[j])){
-            count++;
+            count = count + 1;
         }
         else{
-            count = count + 0;
+            count = count ;
         } 
         }
     }
+    printf("%d",count);
     return 0;
 }
