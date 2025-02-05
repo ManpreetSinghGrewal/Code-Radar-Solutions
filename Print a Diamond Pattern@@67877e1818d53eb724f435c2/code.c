@@ -36,7 +36,6 @@ void print_diamond(int n) {
 
 int main() {
     int n;
-    printf("Enter the number of rows: ");
     scanf("%d", &n);
     print_diamond(n);
     return 0;
