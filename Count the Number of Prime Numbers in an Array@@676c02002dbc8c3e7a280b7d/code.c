@@ -24,9 +24,6 @@ int main() {
         if(isPrime(arr[j])){
             count = count + 1;
         }
-        else{
-            count = count ;
-        } 
     }
     printf("%d",count);
     return 0;
