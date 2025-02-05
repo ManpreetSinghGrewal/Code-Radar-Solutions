@@ -17,9 +17,11 @@ int main() {
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i<n;i++){
-        scanf("%d ",&arr[i]);}
-    
-    for(int j= 0;j<n;j++){int count ;
+        scanf("%d ",&arr[i]);
+    }
+    int count ;
+    for(int j= 0;j<n;j++){
+        
         if(isPrime(arr[j])){
             count = count + 1;
         }
@@ -28,7 +30,5 @@ int main() {
         } 
     }
     printf("%d",count);
-    
-    // printf("%d",count);
     return 0;
 }
