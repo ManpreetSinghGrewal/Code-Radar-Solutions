@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int lcb = a & 1;
-    printf("%d",lsb);
+    printf("%d",lcb);
 
     return 0;
 }
