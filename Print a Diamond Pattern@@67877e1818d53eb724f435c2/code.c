@@ -3,12 +3,6 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
-#include <stdio.h>
-
-    
-}
-
 int main() {
     int num;
     scanf("%d", &num);
