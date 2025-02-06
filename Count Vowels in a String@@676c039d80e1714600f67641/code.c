@@ -13,6 +13,9 @@ int main() {
         if(str[vsize] == 'A' || str[vsize] == 'E' || str[vsize] =='I' || str[vsize] =='O' || str[vsize] == 'U'){
             vsize++;
         }vsize++;
+        else{
+            vsize = vsize;
+        }
     }
     printf("%d",vsize-1);
     return 0;
