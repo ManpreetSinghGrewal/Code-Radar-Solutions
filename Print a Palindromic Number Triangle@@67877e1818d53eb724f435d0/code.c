@@ -14,6 +14,9 @@ int main() {
         for(int k = 1;k<=i;k++){
             printf("%d",k);
         }
+    for(int l = n-1;l>1;){
+        printf("%d",k)
+    }
         printf("\n");
         
     }
