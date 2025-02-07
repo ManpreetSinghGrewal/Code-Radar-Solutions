@@ -10,17 +10,3 @@ int is_prime(int n){
     }   
     return 1;  
 }
-int main(){
-    int a;
-    scanf("%d\n",&a);
-    for(int i = 1;i<=a;i++){
-    int b;
-    scanf("%d",&b);
-    if(is_prime(b)){
-        printf("1");
-    }
-    else{
-        printf("0");
-    }
-}return 0;
-}      
