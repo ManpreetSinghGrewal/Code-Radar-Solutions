@@ -16,7 +16,7 @@ int main(){
     for(int i = 1;i<=a;i++){
     int b;
     scanf("%d",&b);
-    if(is_prime(n)){
+    if(is_prime(b)){
         printf("1");
     }
     else{
