@@ -6,7 +6,7 @@ char* welcome() {
 int prime(int n){
     if(n==0 || n == 1){
         return 0;
-        brea
+        break;
     }
     else{
         for(int i = 2;i<=n * n;i++){
