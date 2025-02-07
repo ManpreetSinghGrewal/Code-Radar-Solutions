@@ -1,8 +1,4 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 int prime(int n){
     if(n==0 || n == 1){
         return 0;
@@ -13,7 +9,7 @@ int prime(int n){
                 return 1;
             }
         }
-    }
+    }return 0;
 }
 
 int main() {
