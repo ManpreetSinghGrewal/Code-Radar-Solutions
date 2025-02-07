@@ -15,8 +15,9 @@ int prime(int n){
 int main() {
     int num;
     scanf("%d",&num);
-    int cn;
+    
     for(int i = 1;i<=num;i++){
+        int cn;
         scanf("%d",&cn);
         printf(prime(cn));
     }
