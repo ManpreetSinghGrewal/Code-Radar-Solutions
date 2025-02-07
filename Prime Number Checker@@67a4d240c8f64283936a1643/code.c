@@ -5,19 +5,14 @@ char* welcome() {
 }
 int prime(int n){
     if(n==0 || n == 1){
-        return 0;
-        break;
+        return 0;}
     else{
         for(int i = 2;i<=n * n;i++){
             if(if i % n == 0){
                 return 1;
-            else{
-                return 0;
-
-            }
             }
         }
-    }
+    return 0;
     }
 }
 
