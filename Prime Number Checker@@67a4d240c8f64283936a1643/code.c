@@ -9,14 +9,14 @@ int prime(int n){
                 return 1;
             }
         }
-    }return 0;
+    }
 }
 
 int main() {
     int num;
     scanf("%d",&num);
     int cn;
-    for(int i = 1;i<=n;i++){
+    for(int i = 1;i<=num;i++){
         scanf("%d",&cn);
         printf(prime(cn));
     }
