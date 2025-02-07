@@ -18,3 +18,4 @@ int main(){
     scanf("%d",&b);
     printf(is_prime(b));
 }
+}      
