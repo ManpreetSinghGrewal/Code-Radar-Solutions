@@ -12,7 +12,6 @@ int prime(int n){
                 return 1;
             }
         }
-    return 0;
     }
 }
 
