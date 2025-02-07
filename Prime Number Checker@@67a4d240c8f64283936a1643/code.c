@@ -8,9 +8,7 @@ int is_prime(int n){
             return 0;
         }  
     }   
-    return 1;  
-}
-int main(){
+    return 1;
     int t;
     scanf("%d",&t);
     while(t--) {
@@ -18,5 +16,5 @@ int main(){
         scanf("%d",&num);
         printf("%d\n",is_prime(num));
     }
-    return 0;
+    return 0;  
 }
