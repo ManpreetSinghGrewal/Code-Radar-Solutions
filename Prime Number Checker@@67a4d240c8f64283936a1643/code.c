@@ -16,6 +16,11 @@ int main(){
     for(int i = 1;i<=a;i++){
     int b;
     scanf("%d",&b);
-    printf(is_prime(b));
+    if(is_prime(n)){
+        printf("1");
+    }
+    else{
+        printf("0");
+    }
 }
 }      
