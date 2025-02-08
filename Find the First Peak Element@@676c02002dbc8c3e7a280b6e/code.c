@@ -20,7 +20,13 @@ int findFirstPeek(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {1, 3, 5, 4, 2};
+    int a;
+    scanf("%d",&a);
+    int arr[a];
+    for(int i =0;i<a;i++){
+        scanf("%d",arr[i]);
+        printf("\n");
+    }
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int peek = findFirstPeek(arr, n);
