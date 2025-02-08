@@ -26,7 +26,7 @@ int main() {
     int peek = findFirstPeek(arr, n);
 
     if (peek != -1) {
-        printf("First peek element is: %d\n", peek);
+        printf("%d", peek);
     } else {
         printf("No peek element found\n");
     }
