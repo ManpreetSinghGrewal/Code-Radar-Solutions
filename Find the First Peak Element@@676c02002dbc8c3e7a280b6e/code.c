@@ -33,7 +33,7 @@ int main() {
     if (peek != -1) {
         printf("%d", peek);
     } else {
-        printf("No peek element found\n");
+        printf("-1");
     }
 
     return 0;
