@@ -35,7 +35,7 @@ int main() {
     }
 
     if (secondg == INT_MIN) {
-        printf("No second largest element found.\n");
+        printf("-1");
     } else {
         printf("%d", secondg);
     }
