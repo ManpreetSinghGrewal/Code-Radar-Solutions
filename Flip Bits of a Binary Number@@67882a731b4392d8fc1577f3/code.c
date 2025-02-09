@@ -9,7 +9,7 @@ int main() {
     scanf("%u", &num);
 
     unsigned int flippedNum = flipBits(num);
-    printf("%d" flippedNum);
+    printf("%d" ,flippedNum);
 
     return 0;
 }
