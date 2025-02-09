@@ -1,14 +1,30 @@
+#include <stdio.h>
+#include <limits.h>
+
 int main() {
     int n;
-    scanf("%d", &n);
-    int arr[n];
-
-    for (int k = 0; k < n; k++) {
-        scanf("%d", &arr[k]);
+    printf("Enter the number of elements: ");
+    if (scanf("%d", &n) != 1) {
+        printf("Invalid input.\n");
+        return 1;
     }
 
-    int greater = arr[0];
-    int secondg = -2147483648; // Initialize with minimum possible integer value
+    if (n <= 0) {
+        printf("Please enter a positive integer.\n");
+        return 1;
+    }
+
+    int arr[n];
+    for (int k = 0; k < n; k++) {
+        printf("Enter element %d: ", k + 1);
+        if (scanf("%d", &arr[k]) != 1) {
+            printf("Invalid input.\n");
+            return 1;
+        }
+    }
+
+    int greater = INT_MIN;
+    int secondg = INT_MIN;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] > greater) {
@@ -19,10 +35,10 @@ int main() {
         }
     }
 
-    if (secondg == -2147483648) {
-        printf("No second largest element found.");
+    if (secondg == INT_MIN) {
+        printf("No second largest element found.\n");
     } else {
-        printf("%d ", secondg);
+        printf("The second largest element is: %d\n", secondg);
     }
 
     return 0;
