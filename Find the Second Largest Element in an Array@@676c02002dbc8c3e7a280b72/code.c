@@ -18,7 +18,7 @@ int main() {
         }
     int secondg =0;
     for(int j =0;j<n;j++){
-        if(arr[j] > secondg && arr[j] != greater){
+        if((arr[j] > secondg) && (arr[j] != greater)){
             arr[j] = secondg;
         }
     }
