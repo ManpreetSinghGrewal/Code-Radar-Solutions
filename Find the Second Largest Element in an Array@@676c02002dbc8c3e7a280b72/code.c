@@ -22,7 +22,7 @@ int main() {
     if (secondg == -2147483648) {
         printf("No second largest element found.");
     } else {
-        printf("%d", secondg);
+        printf("%d ", secondg);
     }
 
     return 0;
