@@ -3,20 +3,19 @@
 
 int main() {
     int n;
-    printf("Enter the number of elements: ");
-    if (scanf("%d", &n) != 1) {
-        printf("Invalid input.\n");
+    if (scanf("%d ", &n) != 1) {
+        printf("Invalid");
         return 1;
     }
 
     if (n <= 0) {
-        printf("Please enter a positive integer.\n");
+        printf("");
         return 1;
     }
 
     int arr[n];
     for (int k = 0; k < n; k++) {
-        printf("Enter element %d: ", k + 1);
+        
         if (scanf("%d", &arr[k]) != 1) {
             printf("Invalid input.\n");
             return 1;
