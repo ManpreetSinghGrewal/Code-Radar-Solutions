@@ -8,7 +8,7 @@ int main() {
     char name[40];
     scanf("%s",&name);
     for(int i = 0;arr[i] != '\0';i++){
-        printf("%s",name[i]);
+        printf("%c",name[i]);
     }
 
     return 0;
