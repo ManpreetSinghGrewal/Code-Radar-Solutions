@@ -6,10 +6,10 @@ char* welcome() {
 
 int main() {
     char name[40];
-    scanf("%s",name);
-    for(int i = 0;arr[i] != '\0';i++){
-        printf("%c",name[i]);
+    for(int i=0;i<40;i++){
+        scanf("%c",name[i]);
     }
+  
 
     return 0;
 }
