@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void reverse(int arr[], int start, int end) {
     while (start < end) {
@@ -19,19 +20,31 @@ void rotateRight(int arr[], int n, int k) {
 
 int main() {
     int z;
-    int arr[z];
-    for(int i = 0;i<z;i++){
-        scanf("%d",&arr[i]);
+    printf("Enter the size of the array: ");
+    scanf("%d", &z);
+    
+    int* arr = (int*)malloc(z * sizeof(int));
+    if (arr == NULL) {
+        printf("Memory not allocated.\n");
+        return 1;
     }
-    int n = sizeof(arr) / sizeof(arr[0]);
+
+    printf("Enter the elements of the array: ");
+    for (int i = 0; i < z; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    int n = z;
     int k = 3; // Number of steps to rotate
 
     rotateRight(arr, n, k);
 
+    printf("Array after rotating to the right by %d steps:\n", k);
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
 
+    free(arr);
     return 0;
 }
