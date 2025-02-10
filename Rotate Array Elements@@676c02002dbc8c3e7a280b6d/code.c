@@ -20,7 +20,7 @@ void rotateRight(int arr[], int n, int k) {
 
 int main() {
     int z;
-    printf("Enter the size of the array: ");
+ 
     scanf("%d", &z);
     
     int* arr = (int*)malloc(z * sizeof(int));
@@ -38,10 +38,9 @@ int main() {
 
     rotateRight(arr, n, k);
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     printf("\n");
-
     free(arr);
     return 0;
 }
