@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char name[40];
-    scanf("%s",&name);
+    scanf("%s",name);
     for(int i = 0;arr[i] != '\0';i++){
         printf("%c",name[i]);
     }
