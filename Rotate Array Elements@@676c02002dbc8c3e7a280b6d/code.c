@@ -29,7 +29,6 @@ int main() {
         return 1;
     }
 
-    printf("Enter the elements of the array: ");
     for (int i = 0; i < z; i++) {
         scanf("%d", &arr[i]);
     }
@@ -38,8 +37,6 @@ int main() {
     int k = 3; // Number of steps to rotate
 
     rotateRight(arr, n, k);
-
-    printf("Array after rotating to the right by %d steps:\n", k);
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
