@@ -18,13 +18,16 @@ void rotateRight(int arr[], int n, int k) {
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7};
+    int z;
+    int arr[z];
+    for(int i = 0;i<z;i++){
+        scanf("%d",arr[i]);
+    }
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 3; // Number of steps to rotate
 
     rotateRight(arr, n, k);
 
-    printf("Array after rotating to the right by %d steps:\n", k);
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
