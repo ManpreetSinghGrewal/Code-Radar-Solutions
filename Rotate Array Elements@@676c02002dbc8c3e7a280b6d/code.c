@@ -21,7 +21,7 @@ int main() {
     int z;
     int arr[z];
     for(int i = 0;i<z;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 3; // Number of steps to rotate
