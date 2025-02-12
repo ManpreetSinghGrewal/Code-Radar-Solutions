@@ -1,16 +1,6 @@
 #include <stdio.h>
-void find_pairs(int arr[], int n, int target) {
-    // Sort the array
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] > arr[j]) {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
 
+void find_pairs(int arr[], int n, int target) {
     int prev_i = -1, prev_j = -1;
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
@@ -24,6 +14,7 @@ void find_pairs(int arr[], int n, int target) {
         }
     }
 }
+
 
 int main() {
     int n, arr[1000], target;
