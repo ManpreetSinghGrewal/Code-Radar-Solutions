@@ -1,8 +1,6 @@
-// Your code here...
 #include <stdio.h>
 
 void find_pairs(int arr[], int n, int target) {
-    // Sort the array
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] > arr[j]) {
@@ -13,13 +11,14 @@ void find_pairs(int arr[], int n, int target) {
         }
     }
 
-    // Find pairs
     int left = 0;
     int right = n - 1;
     while (left < right) {
         int sum = arr[left] + arr[right];
         if (sum == target) {
             printf("%d %d\n", arr[left], arr[right]);
+            while (left < right && arr[left] == arr[left + 1]) left++;
+            while (left < right && arr[right] == arr[right - 1]) right--;
             left++;
             right--;
         } else if (sum < target) {
@@ -29,20 +28,14 @@ void find_pairs(int arr[], int n, int target) {
         }
     }
 }
-int main() {
-    int n;
-    scanf("%d", &n);
 
-    int arr[n];
+int main() {
+    int n, arr[1000], target;
+    scanf("%d", &n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    int target;
     scanf("%d", &target);
-
     find_pairs(arr, n, target);
-
     return 0;
 }
-
