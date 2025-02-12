@@ -31,17 +31,14 @@ void find_pairs(int arr[], int n, int target) {
 }
 int main() {
     int n;
-    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter the array elements: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     int target;
-    printf("Enter the target sum: ");
     scanf("%d", &target);
 
     find_pairs(arr, n, target);
