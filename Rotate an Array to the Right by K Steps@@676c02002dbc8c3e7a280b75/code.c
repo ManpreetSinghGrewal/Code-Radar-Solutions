@@ -23,8 +23,9 @@ int main() {
     int k;
     scanf("%d",&n);
     for(int i = 0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
     }
+    scanf("%d",&k);
     rotateArray(arr, n, k);
     printArray(arr, n);
 
