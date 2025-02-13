@@ -17,7 +17,8 @@ int main() {
 
     if (flag == 1) {
         printf("YES");
-    } else {
+    } 
+    else {
         printf("NO");
     }
 
