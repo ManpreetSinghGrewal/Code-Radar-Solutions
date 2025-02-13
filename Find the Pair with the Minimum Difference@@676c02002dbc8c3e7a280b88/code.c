@@ -7,14 +7,23 @@ int main(){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int min = arr [0] -arr [1];
-    for(int i =0;i<n-1;i++){
-        for(int j =0;j<n-1;j++){
-            if(arr[i] - arr(j+1) > min - min1){
-                min,min1 = arr[i],arr[j+1];
-            }
+    if(n == 1){
+        printf("-1");
+        return 0;
+    }
+    int min  = arr[1] - arr[0];
+    int p1 = arr[0];
+    int p2 = arr[1];
+    for(int i = 0;i<n-1;i++){
+        int diff = arr[i+1]- arr[i];
+        if(diff <min){
+            min = diff;
+            p1 = arr[i];
+            p2 arr[i+1];
+
         }
     }
-    printf("%d %d",min,min1);
+    printf("%d %d",p1,p2);
+    return 0;
     
 }
