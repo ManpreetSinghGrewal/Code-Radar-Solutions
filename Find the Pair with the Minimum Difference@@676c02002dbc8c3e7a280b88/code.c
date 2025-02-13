@@ -19,7 +19,7 @@ int main(){
         if(diff <min){
             min = diff;
             p1 = arr[i];
-            p2 arr[i+1];
+            p2 = arr[i+1];
 
         }
     }
