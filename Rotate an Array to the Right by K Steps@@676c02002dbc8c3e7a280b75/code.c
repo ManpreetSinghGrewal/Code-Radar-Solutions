@@ -18,18 +18,21 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int arr[];
     int n;
-    int k;
-    scanf("%d",&n);
-    for(int i = 0;i<n;i++){
-        scanf("%d ",&arr[i]);
+    scanf("%d", &n);
+
+    // Declare the array with the specified size
+    int arr[n];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    scanf("%d",&k);
+
+    int k;
+    scanf("%d", &k);
     rotateArray(arr, n, k);
     printArray(arr, n);
 
     return 0;
 }
-
 
