@@ -20,7 +20,6 @@ void printArray(int arr[], int n) {
 int main() {
     int n;
     scanf("%d", &n);
-    printf("\n");
 
     // Declare the array with the specified size
     int arr[n];
