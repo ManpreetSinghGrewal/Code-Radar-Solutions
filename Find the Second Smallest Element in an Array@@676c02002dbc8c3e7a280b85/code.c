@@ -21,5 +21,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bsort(arr,n);
-    printf("%d",arr[n-3]);
+    if(n<2){
+        printf("-1")
+    }
+    else{
+        printf("%d",arr[n-3]);
+    }
+    
 }
