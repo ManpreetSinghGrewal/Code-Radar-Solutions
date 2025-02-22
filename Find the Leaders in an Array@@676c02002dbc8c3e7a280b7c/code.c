@@ -22,8 +22,7 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    
-    printf("Leaders in the array are:\n");
+
     findLeaders(arr, n);
     
     return 0;
