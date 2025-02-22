@@ -11,7 +11,7 @@ int main(){
     }
     int sum = 0;
     for(int i =0;i<n;i++){
-        if(tg = arr[i]){
+        if(tg == arr[i]){
             sum = sum + 1;
         }
     }
