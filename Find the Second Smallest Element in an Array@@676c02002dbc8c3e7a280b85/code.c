@@ -22,7 +22,7 @@ int main(){
     }
     bsort(arr,n);
     if(n<2){
-        printf("-1")
+        printf("-1");
     }
     else{
         printf("%d",arr[n-3]);
