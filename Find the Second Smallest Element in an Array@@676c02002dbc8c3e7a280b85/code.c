@@ -8,7 +8,6 @@ void bsort(int arr[];int n){
             arr[i+1] = temp;
         }
     }
-    return temp
 }
 int main(){
     int n; 
