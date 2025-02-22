@@ -18,7 +18,7 @@ int main() {
     ns1[strcspn(ns1, "\n")] = 0;
 
     strcat(ns, ns1);
-    printf("Concatenated string: %s\n", ns);
+    printf("%s\n", ns);
 
     return 0;
 }
