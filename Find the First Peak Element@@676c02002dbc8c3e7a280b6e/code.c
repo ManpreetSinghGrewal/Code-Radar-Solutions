@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int findFirstPeek(int arr[], int n) {
-    if (n < 3) return -1; // not enough elements to find a peek
+    if (n < 2) return -1; // not enough elements to find a peek
 
     if (arr[0] > arr[1]) return arr[0]; // first element is a peek
 
