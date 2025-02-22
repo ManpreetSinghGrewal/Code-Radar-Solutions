@@ -1,9 +1,7 @@
 // Your code here...
 #include  <stdio.h>
 int main(){
-    
-    int n;
-    int tg;
+    int n,tg;
     int arr[n];
     scanf("%d %d",&n,&tg);
     for(int i =0;i<n;i++){
