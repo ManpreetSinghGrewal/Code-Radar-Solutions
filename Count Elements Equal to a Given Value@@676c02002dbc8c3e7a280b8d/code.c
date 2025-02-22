@@ -2,8 +2,8 @@
 #include  <stdio.h>
 int main(){
     int n,tg;
-    int arr[n];
     scanf("%d %d",&n,&tg);
+    int arr[n];
     for(int i =0;i<n;i++){
         scanf("%d",&arr[i]);
     }
