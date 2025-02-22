@@ -1,11 +1,11 @@
 // Your code here...
 #include <stdio.h>
-int bsort(int arr[];int n){
-    int temp[n];
+void bsort(int arr[];int n){
     for(int i = 0;i<n-1;i++){
         if(arr[i]>arr[i+1]){
-            temp[i] = arr[i+1];
-            temp[i+1] = arr[i];
+            int temp = arr[i];
+            int arr[i] = arr[i+1];
+            arr[i+1] = temp;
         }
     }
     return temp
@@ -18,4 +18,5 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bsort(arr,n);
+    printf("%d",temp[n-3]);
 }
