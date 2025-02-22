@@ -7,5 +7,5 @@ int main(){
     scanf("%s",&ns);
     scanf("%s",&ns1);
     strcat(ns,ns1);
-    printf("%s",ns)
+    printf("%s",ns);
 }
