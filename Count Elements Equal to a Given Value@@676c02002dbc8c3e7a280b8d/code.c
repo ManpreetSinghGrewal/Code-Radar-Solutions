@@ -9,7 +9,7 @@ int main(){
     }
     int sum = 0;
     for(int i =0;i<n;i++){
-        if(arr[i] = tg){
+        if(arr[i] == tg){
             sum = sum + 1;
         }
     }
