@@ -2,7 +2,7 @@
 #include <string.h>
 
 void printArray(char arr[], int size) {
-    for (int i = 0; i < size; i++) {
+    for (int i = 1; i < size; i++) {
         if(arr[i-1] = ' '){
             printf(" %c", arr[i]);
         }
