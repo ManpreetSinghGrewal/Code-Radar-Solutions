@@ -5,8 +5,8 @@ int main(){
     char str[100];
     fgets(str,100,stdin);
     int sum = 0;
-    for(int i = 0;str[i] != '\0';i++){
-        if(str[i] == ' ' && str[i+1] !=' '){
+    for(int i = 1;str[i] != '\0';i++){
+        if(str[i+1] == ' ' && str[i-1] !=' '){
             sum = sum + 1;
         }
     }
