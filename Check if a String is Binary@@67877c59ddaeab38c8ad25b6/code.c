@@ -5,7 +5,7 @@ int main(){
     char arr[100];
     fgets(arr,100,stdin);
     for(int i = 0;i<100;i++){
-        if(arr[i] != 0 || arr[i] != 1){
+        if(arr[i] != 1 || arr[i] != 0){
             printf("No");
             return 0;
         }
