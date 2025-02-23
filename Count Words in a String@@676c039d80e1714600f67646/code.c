@@ -10,5 +10,5 @@ int main(){
             sum = sum + 1;
         }
     }
-    printf("%d",sum);
+    printf("%d",sum+1);
 }
