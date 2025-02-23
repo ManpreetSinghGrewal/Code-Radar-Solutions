@@ -4,7 +4,8 @@
 int main(){
     char arr[100];
     fgets(arr,100,stdin);
-    for(int i = 0;i<100;i++){
+    int n = strlen(arr) - 1;
+    for(int i = 0;i<n;i++){
         if(arr[i] != 1 || arr[i] != 0){
             printf("No");
             return 0;
