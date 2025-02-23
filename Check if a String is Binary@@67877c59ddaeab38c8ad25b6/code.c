@@ -8,6 +8,6 @@ int main(){
         if(arr[i] != 1 || arr[i] != 0){
             printf("No");
             return 0;
-        }
-    }printf("Yes");
+        }printf("Yes");
+    }
 }
