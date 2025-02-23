@@ -3,7 +3,13 @@
 
 void printArray(char arr[], int size) {
     for (int i = 0; i < size; i++) {
-        printf("%c", arr[i]);
+        if(arr[i-1] = ' '){
+            printf(" %c", arr[i]);
+        }
+        else{
+            printf("%c",arr[i]);
+        }
+        
     }
 
 }
