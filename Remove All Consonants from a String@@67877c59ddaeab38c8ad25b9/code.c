@@ -12,7 +12,7 @@ int main() {
     int n = strlen(arr) - 1;
     int temp[n];
     for(int i =0;i<n;i++){
-        if(arr[i] = 'a'|| arr[i] = 'e'|| arr[i] = 'i'|| arr[i] = 'u'|| arr[i] = 'o'){
+        if(arr[i] == 'a'|| arr[i] =='e'|| arr[i] == 'i'|| arr[i] == 'u'|| arr[i] == 'o'){
             for(int j =0;j<n;j++){
                 temp[j] = arr[i];
             }
