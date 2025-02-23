@@ -18,7 +18,7 @@ int main() {
     }
 
     for (; str[i] != '\0'; i++) {
-        if (str[i] == ' ' ) {
+        if (str[i] == ' ' && str[i + 1] != ' ' ) {
             sum = sum + 1;
         }
     }
