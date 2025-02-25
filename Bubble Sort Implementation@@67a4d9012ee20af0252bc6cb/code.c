@@ -9,5 +9,5 @@ int bubbleSort(int arr[], int n) {
             }
         }
     }
-    return arr;
+    return 0;
 }
