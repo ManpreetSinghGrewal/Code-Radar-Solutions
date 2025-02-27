@@ -22,5 +22,6 @@ int main(){
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[0]);
     }
-    printf(movez(arr,n));
+    movez(arr,n);
+    
 }
