@@ -1,17 +1,20 @@
 // Your code here...
 #include <stdio.h>
-int movez(int arr[],int n){
+void movez(int arr[],int n){
+    int temp[n];
     int k = 0;
     for(int i=0;i<n;i++){
-        if(arr[i]=0){
-            arr[n-1-k] = 0;
-            k++;
+        if(arr[i] != 0){
+            temp[k++] = arr[i];
         }
-    for(int j=0;j<n-k;j++){
-        int temp = arr[j];
-        arr[j] = temp;
     }
+    while (k<n){
+        temp[k++] = 0;
     }
+    for (int i = 0; i < n; i++) {
+        arr[i] = temp[i];
+    }
+    
 }
 int main(){
     int n;
