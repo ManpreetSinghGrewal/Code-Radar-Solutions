@@ -9,7 +9,7 @@ int main(){
     }
     for(int i =0;i<n;i++){
         int sum = 0;
-        int num = arr[i]/10;
+        float num = arr[i]/10;
         sum = sum + num + arr[i]%10;
         printf("%d ",sum);
         
