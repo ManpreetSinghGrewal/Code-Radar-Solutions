@@ -9,7 +9,7 @@ int movez(int arr[],int n){
             k++;
         }
         else{
-            return 1;
+            arr[i]= arr[i];
         }
     for(int j=0;j<k;j++){
         int temp = arr[j];
