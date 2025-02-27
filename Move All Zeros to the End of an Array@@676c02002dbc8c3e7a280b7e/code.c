@@ -10,10 +10,10 @@ int movez(int arr[],int n){
         }
         else{
             for(int i=0;i<n-k;i++){
-                temp[i] = arr[i];
+                arr[i] = arr[i];
             }
         }
-    }return temp[n];
+    }
 }
 int main(){
     int n;
@@ -24,7 +24,7 @@ int main(){
     }
     movez(arr,n);
     for(int i = 0;i<n;i++){
-        printf("%d ",int arr[i]);
+        printf("%d ",arr[i]);
     }
 
 }
