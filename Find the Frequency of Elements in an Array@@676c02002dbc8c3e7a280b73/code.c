@@ -1,9 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 
 void findFrequency(int arr[], int n) {
     int freq[n];  // Auxiliary array to store frequencies
@@ -35,12 +30,16 @@ void findFrequency(int arr[], int n) {
         }
     }
 }
+
 int main() {
     int n;
-    scanf("%d",&n);
-    arr[n];
-    for(int i = 0;i<n;i++){
-        scanf("%d",&arr[i]);
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    int arr[n];
+    printf("Enter the elements:\n");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    findFrequency(arr,n);
+    findFrequency(arr, n);
+    return 0;
 }
