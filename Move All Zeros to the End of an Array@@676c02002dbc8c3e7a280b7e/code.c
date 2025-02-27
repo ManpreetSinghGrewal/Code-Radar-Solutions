@@ -1,7 +1,6 @@
 // Your code here...
 #include <stdio.h>
 int movez(int arr[],int n){
-    int temp[n];
     int k = 0;
     for(int i=0;i<n;i++){
         if(arr[i]=0){
@@ -11,11 +10,10 @@ int movez(int arr[],int n){
         else{
             arr[i]= arr[i];
         }
-    for(int j=0;j<k;j++){
+    for(int j=0;j<n-k;j++){
         int temp = arr[j];
         arr[j] = temp;
     }
-        
     }
 }
 int main(){
