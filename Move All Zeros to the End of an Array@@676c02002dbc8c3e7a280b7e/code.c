@@ -9,6 +9,10 @@ int movez(int arr[],int n){
             k++;
         }
         
+    for(int j=0;j<k;i++){
+        arr[i] = arr[i];
+    }
+        
     }
 }
 int main(){
