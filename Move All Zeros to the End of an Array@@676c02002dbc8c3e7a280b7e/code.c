@@ -10,7 +10,7 @@ int movez(int arr[],int n){
         }
     for(int j=0;j<k;i++){
         int temp = arr[i];
-        arr[i] = temp;
+        arr[j] = temp;
     }
         
     }
