@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -10,9 +10,10 @@ int main(){
     }
     for(int i =0;i<n;i++){
         int sum = 0;
-        while(arr[i] != 0){
-            sum += arr[i] % 10;
-            arr[i] /= 10;
+        num = abs(arr[i]);
+        while(num != 0){
+            sum += num % 10;
+            num /= 10;
         }
         printf("%d ",sum);
         
