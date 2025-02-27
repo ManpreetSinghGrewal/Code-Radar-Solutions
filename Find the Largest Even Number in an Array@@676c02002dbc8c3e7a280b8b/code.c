@@ -14,6 +14,12 @@ int main(){
         }
 
     }
-    printf("%d",even);
+    if(even != 0){
+        printf("%d",even);
+    }
+    else{
+        printf("-1");
+    }
+    
 
 }
