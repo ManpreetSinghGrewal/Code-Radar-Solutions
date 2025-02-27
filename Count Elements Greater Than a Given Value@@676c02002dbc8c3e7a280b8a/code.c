@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int n,t
+    int n,t;
     scanf("%d %d", &n,&t);
     int arr[n];
     for (int i = 0; i < n; i++) {
