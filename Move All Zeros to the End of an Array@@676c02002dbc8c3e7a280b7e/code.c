@@ -23,5 +23,8 @@ int main(){
         scanf("%d",&arr[0]);
     }
     movez(arr,n);
+    for(int i = 0;i<n;i++){
+        printf("%d",arr[i]);
+    }
 
 }
