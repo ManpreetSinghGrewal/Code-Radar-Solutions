@@ -8,9 +8,9 @@ int movez(int arr[],int n){
             arr[n-1-k] = 0;
             k++;
         }
-        
     for(int j=0;j<k;i++){
-        arr[i] = arr[i];
+        int temp = arr[i];
+        arr[i] = temp;
     }
         
     }
