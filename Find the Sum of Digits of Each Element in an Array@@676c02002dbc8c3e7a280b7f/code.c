@@ -10,8 +10,10 @@ int main(){
     }
     for(int i =0;i<n;i++){
         int sum = 0;
-        float num = arr[i]/100;
-        sum = sum + num + arr[i]%10;
+        while(arr[i] != 0){
+            sum += arr[i] % 10;
+            arr[i] /= 10;
+        }
         printf("%d ",sum);
         
     }
