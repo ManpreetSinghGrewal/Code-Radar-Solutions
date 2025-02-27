@@ -4,7 +4,7 @@ int movez(int arr[],int n){
     int temp[n];
     int k = 0;
     for(int i=0;i<n;i++){
-        if(arr[i]=="0"){
+        if(arr[i]==0){
             arr[n-1-k] = 0;
             k++;
         }
@@ -23,5 +23,5 @@ int main(){
         scanf("%d",&arr[0]);
     }
     movez(arr,n);
-    
+
 }
