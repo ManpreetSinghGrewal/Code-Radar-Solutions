@@ -1,5 +1,5 @@
 // Your code here...
-int fibbonaciSeries(int n){
+int fibonacciSeries(int n){
     int a =0;
     int b = 1;
     printf("0 ");
@@ -11,6 +11,5 @@ int fibbonaciSeries(int n){
         a = temp;
         b = a + b;
         printf("%d ",b);
-
     }
 }
