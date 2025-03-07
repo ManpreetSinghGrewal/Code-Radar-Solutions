@@ -13,5 +13,4 @@ int fibbonaciSeries(int n){
         printf("%d ",b);
 
     }
-    printf("")
 }
