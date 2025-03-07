@@ -20,11 +20,11 @@ int main() {
     float b; 
     scanf("%d",&t);
     for(int i =0;i<n;i++){
-        if(students[i].roll = t){
+        if(students[i].roll == t){
             a = students[i].roll;
             b = students[i].marks;
             strcpy(c,students[i].name);
         }
     }
-    printf("Roll Number: %d, Name: %s, Marks: %.2f",a,c,b);
+    printf("Roll Number: %d, Name: %s, Marks: %.2f",t,c,b);
 }
