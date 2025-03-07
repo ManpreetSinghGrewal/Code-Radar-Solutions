@@ -14,8 +14,8 @@ int main(){
         scanf("%f %f",&rectangles[i].l,&rectangles[i].b);
     }
     for(int i = 1;i<=n;i++){
-        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",i+1,rectangles[i+1].l*rectangles[i+b].b,
-        4*(rectangles[i+1].l + rectangles[i+1].b));
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",i,rectangles[i-1].l*rectangles[i-1].b,
+        4*(rectangles[i-1].l + rectangles[i=1].b));
         printf("\n");
     }
     
