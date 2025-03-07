@@ -15,10 +15,10 @@ int main() {
     }
     for(int i =0;i<n;i++){
         char grade;
-        if(students[i].marks > 85){
+        if(students[i].marks >= 85){
             grade = 'A';
         }
-        else if(students[i].marks >=70 && students[i].marks <=84 ){
+        else if(students[i].marks >=70 && students[i].marks < 85 ){
             grade = 'B';
         }
         else{
