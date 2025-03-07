@@ -1,19 +1,18 @@
 // Your code here...
 #include <stdio.h>
+struct Student{
+    int roll;
+    char name[99];
+    float marks;    
+};
 int main() {
-    struct student{
-        int roll ;
-        char name[99];
-        float marks;
-    };
     int n;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        struct student [i];
-        scanf("%d",&student[i].roll);
+    struct Student students[n];
+    for(int i =0;i<n;i++){
+        scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
-    for(int i=1;i<=n;i++){
-        printf("%d", student[i].roll);
+    for(int i =0;i<n;i++){
+        printf("%d %s %f",students[i].roll,students[i].name,students[i].marks);
     }
-    
 }
