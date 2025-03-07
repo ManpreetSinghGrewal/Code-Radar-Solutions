@@ -18,7 +18,7 @@ int main() {
     int t;
     char c[99];
     float b; 
-    scanf("%d",&b);
+    scanf("%d",&t);
     for(int i =0;i<n;i++){
         if(students[i].roll = t){
             a = students[i].roll;
