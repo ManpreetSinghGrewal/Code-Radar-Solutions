@@ -14,7 +14,7 @@ int main(){
         scanf("%s %s %f",&books[i].X,&books[i].Y,&books[i].Z);
     }
     float t;
-    scanf("%d",&t);
+    scanf("%f",&t);
     printf("Books above price %.2f",t);
     printf("\n");
     for(int i =0;i<n;i++){
