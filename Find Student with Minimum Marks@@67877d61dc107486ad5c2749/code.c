@@ -20,7 +20,7 @@ int main(){
     for(int i =0;i<n;i++){
         if(students[i].marks < minimum){
             mroll = students[i].roll;
-            strcopy(mname,students[i].name);
+            strcpy(mname,students[i].name);
             mmarks = students[i].marks;
         }
     }
