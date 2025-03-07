@@ -16,7 +16,7 @@ int main() {
     }
     int k =0;
     float t;
-    scanf("%d",&t);
+    scanf("%f",&t);
     for(int i =0;i<n;i++){
         if(students[i].marks > t){
             k = k + 1;
