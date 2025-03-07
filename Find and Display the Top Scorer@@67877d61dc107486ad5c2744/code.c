@@ -13,7 +13,7 @@ int main(){
     for(int i= 0;i<n;i++){
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
-    arr greatest [];
+    arr greatest [3];
     float greater = 0.00;
     for(int i= 0;i<n;i++){
         if(greater < students[i].marks ){
