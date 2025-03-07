@@ -18,5 +18,8 @@ int main() {
         sum = sum + students[i].marks;
     }
     float average = sum / n;
+    printf("Total Marks: %.2f \n",sum);
+
     printf("Average Marks: %.2f",average);
+
 }
