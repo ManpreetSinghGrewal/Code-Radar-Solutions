@@ -19,7 +19,7 @@ int main() {
             grade = 'A';
         }
         else if(students[i].marks >=74 && students[i].marks <=84 ){
-            grade = 'B'
+            grade = 'B';
         }
         else{
             grade = 'C';
