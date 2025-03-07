@@ -20,7 +20,7 @@ int main(){
     for(int i= 0;i<n;i++){
         if(greater < students[i].marks ){
             a = students[i].marks;
-            b =  students[i].name;
+            strcpy(b,students[i].name);
             c = students[i].roll;
         }
     printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",c,b,a);
