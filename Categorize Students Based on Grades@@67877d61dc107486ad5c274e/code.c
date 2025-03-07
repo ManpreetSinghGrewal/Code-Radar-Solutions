@@ -14,7 +14,17 @@ int main() {
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
     for(int i =0;i<n;i++){
-        printf("Roll Number: %d, Name: %s, Marks: %.2f",students[i].roll,students[i].name,students[i].marks);
+        char grade;
+        if(students[i].marks >= 85){
+            grade = 'A';
+        }
+        else if(students[i].marks >=74 && students[i].marks <=84 ){
+            grade = 'B'
+        }
+        else{
+            grade = 'C';
+        }
+        printf("Roll Number: %d, Name: %s, Grade: %c",students[i].roll,students[i].name,grade);
         printf("\n");
     }
 }
