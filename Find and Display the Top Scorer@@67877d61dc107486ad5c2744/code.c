@@ -13,13 +13,17 @@ int main(){
     for(int i= 0;i<n;i++){
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
-    arr greatest [3];
     float greater = 0.00;
+    float a = 0.00
+    char b [88];
+    int c = 0;
     for(int i= 0;i<n;i++){
         if(greater < students[i].marks ){
-            greatest = students[i];
+            a = students[i].marks;
+            b =  students[i].name;
+            c = students[i].roll;
         }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",greatest.roll,greatest.name,greatest.marks);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",c,b,a);
     }
 
 }
