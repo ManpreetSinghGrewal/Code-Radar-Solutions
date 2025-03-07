@@ -13,7 +13,7 @@ int main(){
     for(int i =0;i<n;i++){
         scanf("%s %s %d",&books[i].X,&books[i].Y,&books[i].Z);
     }
-    int t;
+    float t;
     scanf("%d",&t);
     printf("Books above price %.2f",t);
     printf("\n");
