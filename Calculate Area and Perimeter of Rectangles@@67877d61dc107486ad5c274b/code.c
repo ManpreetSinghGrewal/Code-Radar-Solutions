@@ -16,6 +16,7 @@ int main(){
     for(int i = 0;i<n;i++){
         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",i,rectangles[i].l*rectangles[i].b,
         4*(rectangles[i].l + rectangles[i].b));
+        printf("\n");
     }
     
     
