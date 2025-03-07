@@ -19,7 +19,7 @@ int main(){
     printf("\n");
     for(int i =0;i<n;i++){
         if(books[i].Z > t){
-            printf("Title: %s, Author: %s, Price: %.2f",books[i].X,books[i].Y,books[i].Z);
-        }printf("\n");
+            printf("Title: %s, Author: %s, Price: %.2f",books[i].X,books[i].Y,books[i].Z);printf("\n");
+        }
     }
 }
