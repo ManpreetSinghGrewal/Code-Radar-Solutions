@@ -23,8 +23,8 @@ int main(){
             printf("Not All Passed");
             return 0;
         }
-    printf("All Passed");
-    }
     
+    }printf("All Passed");
+    return 0;
     
 }
