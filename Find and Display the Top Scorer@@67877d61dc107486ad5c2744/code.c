@@ -14,7 +14,7 @@ int main(){
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
     float greater = 0.00;
-    float a = 0.00
+    float a = 0.00;
     char b[88];
     int c = 0;
     for(int i= 0;i<n;i++){
