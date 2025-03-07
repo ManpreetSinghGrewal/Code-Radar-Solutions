@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&n);
     struct Rectangle rectangles[n];
     for(int i = 0;i<n;i++){
-        scanf("%d %d",&rectangles[i].l,&rectangles[i].b);
+        scanf("%f %f",&rectangles[i].l,&rectangles[i].b);
     }
     for(int i = 0;i<n;i++){
         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",i,rectangles[i].l*rectangles[i].b,
