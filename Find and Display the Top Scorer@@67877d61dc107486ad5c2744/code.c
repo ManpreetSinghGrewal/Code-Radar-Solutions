@@ -23,7 +23,7 @@ int main(){
             strcpy(b,students[i].name);
             c = students[i].roll;
         }
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",c,b,a);
+    
     }
-
+printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",c,b,a);
 }
