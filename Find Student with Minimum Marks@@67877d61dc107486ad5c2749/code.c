@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&n);
     struct Student students[n];
     for(int i =0;i<n;i++){
-        scanf("%d %s %f",students[i].roll,students[i].name,students[i].marks);
+        scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
     int mroll;
     float mmarks;
@@ -22,6 +22,7 @@ int main(){
             mroll = students[i].roll;
             strcpy(mname,students[i].name);
             mmarks = students[i].marks;
+            minimum = students[i].marks;
         }
     }
     printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",mroll,mname,mmarks);
