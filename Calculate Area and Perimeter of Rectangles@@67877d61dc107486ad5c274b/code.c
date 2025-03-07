@@ -15,7 +15,7 @@ int main(){
     }
     for(int i = 1;i<=n;i++){
         float area = rectangles[i-1].l * rectangles[i-1].b;
-        printf("\n");
+        printf("%d ",area);
     }
     
     
