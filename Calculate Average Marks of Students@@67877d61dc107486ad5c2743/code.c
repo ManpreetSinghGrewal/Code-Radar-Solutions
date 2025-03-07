@@ -12,7 +12,7 @@ int main() {
     for(int i =0;i<n;i++){
         scanf("%d %s %f",&students[i].roll,&students[i].name,&students[i].marks);
     }
-    int sum = 0.0;
+    float sum = 0.00;
     for(int i =0;i<n;i++){
         sum = sum + students[i].marks;
     }
