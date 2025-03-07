@@ -22,6 +22,7 @@ int main(){
             a = students[i].marks;
             strcpy(b,students[i].name);
             c = students[i].roll;
+            greater = students[i].marks;
         }
     
     }
