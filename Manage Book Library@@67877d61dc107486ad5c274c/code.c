@@ -4,7 +4,7 @@
 struct Book{
     char X[99];
     char Y[99];
-    floatZ;
+    float Z;
 };
 int main(){
     int n;
