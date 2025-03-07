@@ -15,7 +15,7 @@ int main(){
     }
     float t;
     scanf("%f",&t);
-    printf("Books above price %.2f",t);
+    printf("Books above price %.2f:",t);
     printf("\n");
     for(int i =0;i<n;i++){
         if(books[i].Z > t){
