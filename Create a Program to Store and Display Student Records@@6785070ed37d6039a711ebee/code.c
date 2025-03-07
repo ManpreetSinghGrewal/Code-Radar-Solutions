@@ -5,7 +5,7 @@ int main() {
         int roll ;
         char name[99];
         float marks;
-    }
+    };
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
