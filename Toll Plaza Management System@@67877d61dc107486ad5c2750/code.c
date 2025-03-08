@@ -10,9 +10,9 @@ struct Toll {
 int main() {
     int n;
     scanf("%d", &n);
-    int ct = 0;
-    int tt = 0;
-    int bt = 0;
+    float ct = 0;
+    float tt = 0;
+    float = 0;
     struct Toll vech[n];
     
     for (int i = 0; i < n; i++) {
