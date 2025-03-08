@@ -18,10 +18,10 @@ int main() {
         if(vech[i].name == "Car"){
             ct = ct + vech[i].tax;
         }
-        else if(vech[i].name = "Truck"){
+        else if(vech[i].name == "Truck"){
             tt = tt + vech[i].tax;
         }
-        else(vech[i].name = "Bike"){
+        else(vech[i].name =="Bike"){
             bt = bt + vech[i].tax;
         }
     }
