@@ -25,8 +25,7 @@ int main() {
             bt = bt + vech[i].tax;
         }
     }
-    for(int i =0;i<n;i++){
+    
         printf("Cars: %d, Trucks: %d, Bikes: %d",ct,tt,bt);
         printf("\n");
-    }
 }
