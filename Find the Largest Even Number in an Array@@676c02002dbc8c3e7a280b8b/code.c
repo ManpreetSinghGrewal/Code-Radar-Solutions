@@ -18,5 +18,11 @@ int main() {
             largest = largest + arr[i];
         }
     }
-    printf("%d",largest);
+    if(largest == 0){
+        printf("-1");
+    }
+    else{
+        printf("%d",largest);
+    }
+    
 }
