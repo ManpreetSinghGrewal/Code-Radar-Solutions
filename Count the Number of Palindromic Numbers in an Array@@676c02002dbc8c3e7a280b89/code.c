@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int is_palindrome(int n){
-    int on = num;
+    int on = n;
     int reversed = 0;
     int remainder;
     while(n != 0){
