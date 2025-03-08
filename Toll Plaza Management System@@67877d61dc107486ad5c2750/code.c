@@ -26,7 +26,7 @@ int main() {
         }
     }
     for(int i =0;i<n;i++){
-        printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",ct,tt,bt);
+        printf("Cars: %d, Trucks: %d, Bikes: %d",ct,tt,bt);
         printf("\n");
     }
 }
