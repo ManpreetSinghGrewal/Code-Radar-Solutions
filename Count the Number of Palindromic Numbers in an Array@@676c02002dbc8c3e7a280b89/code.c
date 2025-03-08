@@ -6,7 +6,7 @@ int is_palindrome(int n){
     int remainder;
     while(n != 0){
         remainder =  n % 10;
-        reversed = reversed + remainder;
+        reversed = reversed * 10 + remainder;
         n /= 10;
     }
     if(reversed == on){
@@ -23,7 +23,7 @@ int main(){
     for(int i =0;i<n;i++){
        scanf("%d",&arr[i]);
     }
-    int k =0;
+    int k = 0;
     for(int i =0;i<n;i++){
         if(is_palindrome(arr[i])){
             k++;
