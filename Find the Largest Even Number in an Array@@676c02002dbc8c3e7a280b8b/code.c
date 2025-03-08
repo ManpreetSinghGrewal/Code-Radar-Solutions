@@ -16,7 +16,7 @@ int main() {
     }
     int largest = INT_MIN;
     for (int i = 0; i < n; i++) {
-        if(is_even(arr[i]) && abs(arr[i]) > largest){
+        if(is_even(arr[i]) && arr[i] > largest){
             largest =  arr[i];
         }
     }
