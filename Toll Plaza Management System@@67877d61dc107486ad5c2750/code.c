@@ -26,7 +26,7 @@ int main() {
         }
     }
     
-    printf("Cars: %d, Trucks: %d, Bikes: %d\n", ct, tt, bt);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f\n", ct, tt, bt);
     
     return 0;
 }
