@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limit.h>
+#include <limits.h>
 int is_even(int n){
     if(abs(n) % 2 == 0){
         return 1;
