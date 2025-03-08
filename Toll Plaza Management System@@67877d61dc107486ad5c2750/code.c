@@ -21,7 +21,7 @@ int main() {
         else if(vech[i].name == "Truck"){
             tt = tt + vech[i].tax;
         }
-        else(vech[i].name == "Bike"){
+        else{
             bt = bt + vech[i].tax;
         }
     }
