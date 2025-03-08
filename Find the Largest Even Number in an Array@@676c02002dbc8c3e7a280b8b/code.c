@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 int is_even(int n){
-    if(n % 2 == 0){
+    if(abs(n) % 2 == 0){
         return 1;
     }
     return 0;
