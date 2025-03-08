@@ -11,10 +11,10 @@ int main(){
     for(int i= 0;i<n;i++){
         for(int j =0;j<n;j++){
             if(arr[i] == arr[j] && i != j){
-                k = k + arr[i];
+                k - arr[i];
                 return 0;
             }
         }
     }
-    printf("hloo");
+    printf("%d",k);
 }
