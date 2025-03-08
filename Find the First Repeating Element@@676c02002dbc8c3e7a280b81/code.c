@@ -12,11 +12,11 @@ int main(){
         for(int j =0;j<n;j++){
             if(arr[i] == arr[j] && i != j){
                 k  = arr[i];
+                printf("%d",k);
                 return 0;
             }
-        
         }printf("-1");
     }
-    printf("%d",k);
+    
     return 0;
 }
