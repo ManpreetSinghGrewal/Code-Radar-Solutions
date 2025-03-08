@@ -4,7 +4,7 @@ int is_palindrome(int n){
     int reversed = 0;
     int remainder;
     while(n != 0){
-        remainder =  % 10;
+        remainder =  n % 10;
         reversed = reversed + remainder;
         n /= 10;
     }
