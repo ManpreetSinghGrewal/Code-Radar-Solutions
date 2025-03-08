@@ -4,7 +4,7 @@
 struct Temp{
     char day[99];
     int temp;
-}
+};
 int main(){
     int sum = 0;
     struct Temp temper[7];
