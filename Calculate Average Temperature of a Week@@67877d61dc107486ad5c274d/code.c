@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
+#include <string.h>
 int main(){
-    printf("hloo");
     int sum = 0;
     for (int i = 0;i<7;i++){
         int a;
