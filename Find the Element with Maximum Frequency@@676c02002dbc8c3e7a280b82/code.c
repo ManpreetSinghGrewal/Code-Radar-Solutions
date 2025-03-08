@@ -21,6 +21,8 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d ", &arr[i]);
     }
+    int result = max_freq(arr[],n);
+    printf("%d",result);
 }
