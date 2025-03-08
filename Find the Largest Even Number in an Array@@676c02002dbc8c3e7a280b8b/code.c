@@ -15,7 +15,7 @@ int main() {
     int largest = 0;
     for (int i = 0; i < n; i++) {
         if(is_even(arr[i]) && arr[i] > largest){
-            largest = largest + arr[i];
+            largest =  arr[i];
         }
     }
     if(largest == 0){
