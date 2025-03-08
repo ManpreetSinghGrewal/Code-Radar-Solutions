@@ -14,5 +14,5 @@ int max_freq(int arr[],int n){
             }
         }
     }
-    return max_element
+    return max_element;
 }
