@@ -11,10 +11,10 @@ int main() {
     scanf("%d",&n);
     struct Employee employees[n];
     for(int i =0;i<n;i++){
-        scanf("%d %s %f",&employees[i].id,&employees[i].name,&employees[i].bonus);
+        scanf("%d %s %,2f",&employees[i].id,&employees[i].name,&employees[i].bonus);
     }
     for(int i =0;i<n;i++){
-        printf("Employee ID: %d, Name: %s, Bonus: %f",employees[i].id,employees[i].name,employees[i].bonus);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f",employees[i].id,employees[i].name,employees[i].bonus);
         printf("\n");
     }
 }
