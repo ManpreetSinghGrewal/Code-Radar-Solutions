@@ -1,22 +1,22 @@
 #include <stdio.h>
-
+int is_even(int n){
+    if(i % 2 == 0){
+        return 1;
+    }
+    return 0;
+}
 int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  // Corrected scanf statement
+        scanf("%d", &arr[i]); 
     }
-    int even_sum = 0;
+    int largest = 0;
     for (int i = 0; i < n; i++) {
-        if (arr[i] % 2 == 0) {  // Check if the number is even
-            even_sum += arr[i];
+        if(is_even(arr[i] && arr[i] > largest)){
+            largest = arr[i];
         }
     }
-    if (even_sum != 0) {
-        printf("%d", even_sum);
-    } else {
-        printf("-1");
-    }
-    return 0;  // Added return statement
+    printf("%d",largest);
 }
