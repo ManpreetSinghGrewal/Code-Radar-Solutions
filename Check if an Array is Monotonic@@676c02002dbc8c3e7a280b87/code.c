@@ -3,13 +3,16 @@
 #include <stdlib.h>
 
 int is_m(int arr[],int n){
-    for (int i = 0; i < n; i++){
-        for (int j = 0; j < n; j++){
-            if((arr[j] <= arr[j+1]) || (arr[j] >= arr[j+1])){
-                return 1;
-            }
+    int increasing = 1,decreasing = 1;
+    for(int i =0;i<n-1;i++){
+        if(arr[i] > arr[i+1]){
+            increasing = 0;
         }
-    }return 0;
+        if(arr[i] < arr[i+1]){
+            decreasing = 0;
+        }
+    }
+    return increasing || decreasing;
 }
 int main() {
     int n;
