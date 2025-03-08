@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int is_palindrome(int n){
-    
+    int on = n;
     int reversed = 0;
     int remainder;
     while(n != 0){
@@ -10,7 +10,7 @@ int is_palindrome(int n){
         reversed = reversed * 10 + remainder;
         n /= 10;
     }
-    if(abs(reversed) == n){
+    if(abs(reversed) == on){
         return 1;
     }
     else{return 0;}
