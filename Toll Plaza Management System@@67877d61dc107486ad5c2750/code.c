@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &n);
     float ct = 0;
     float tt = 0;
-    float = 0;
+    float bt = 0;
     struct Toll vech[n];
     
     for (int i = 0; i < n; i++) {
