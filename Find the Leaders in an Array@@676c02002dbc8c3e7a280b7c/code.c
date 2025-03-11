@@ -9,7 +9,7 @@ void findLeaders(int arr[], int n) {
     leaders[leader_count++] = max_from_right; // Rightmost element is always a leader
 
     for (int i = n - 2; i >= 0; i--) {
-        if (arr[i] > max_from_right) {
+        if (arr[i] >= max_from_right) { // Use >= instead of > to include equal values
             max_from_right = arr[i];
             leaders[leader_count++] = max_from_right;
         }
