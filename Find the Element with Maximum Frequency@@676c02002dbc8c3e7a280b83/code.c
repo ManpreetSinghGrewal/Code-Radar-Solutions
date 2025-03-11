@@ -14,9 +14,9 @@ int main(){
             if(arr[i] == arr[j]){
                 count++;
             }
-            if(count > greater){
-                greater = greater + arr[i];
-            }
+        if(count > greater){
+            greater = greater + arr[i];
+        }   
         } 
     }
     printf("%d",greater);
