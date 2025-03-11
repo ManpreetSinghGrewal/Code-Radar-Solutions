@@ -9,5 +9,4 @@ void bubbleSort(char arr[],int n){
             }
         }
     }
-    return arr;
 }
