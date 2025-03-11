@@ -17,7 +17,7 @@ int main(){
             }
         if(count > max_c){
             max_c = count;
-            most_f = arr[i]
+            most_f = arr[i];
         }   
         } 
     }
