@@ -15,7 +15,7 @@ int main(){
                 count++;
             }
         if(count > greater){
-            greater = greater + arr[i];
+            greater = arr[i];
         }   
         } 
     }
