@@ -20,11 +20,11 @@ int main(){
     int p = 0;
     float pr = 0.00;
     for(int i =0;i<n;i++){
-        if(persons[i].type == "Basic"){
+        if(strcmp(persons[i].type ,"Basic")==0){
             b++;
             br = br + persons[i].price;
         }
-        else if(persons[i].type == "Standard"){
+        else if(strcmp(persons[i].type ,"Standard")==0){
             s++;
             sr = sr + persons[i].price;
         }
