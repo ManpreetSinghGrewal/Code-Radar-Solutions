@@ -33,7 +33,7 @@ int main(){
             pr = pr + persons[i].price;
         }
     }
-    printf("Basic: %d Users, Revenue: %f; Standard: %d Users, Revenue: %f; Premium: %d Users, Revenue: %f",b,br,s,sr,p,pr);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",b,br,s,sr,p,pr);
 
 
 
