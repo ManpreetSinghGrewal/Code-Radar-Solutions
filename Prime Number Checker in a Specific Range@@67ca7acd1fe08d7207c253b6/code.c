@@ -17,9 +17,9 @@ int printPrimesInRange(int a,int b){
             printf("%d ",i);
             c++;
         }
-    if(c == 0){
-        printf("No prime numbers");
-    }
     
+    
+    }if(c == 0){
+        printf("No prime numbers");
     }
 }
