@@ -15,7 +15,7 @@ int printPrimeInRange(int a,int b){
     int smaller = b
     if(b > greater){
         greater = a;
-        smaller = b
+        smaller = b;
     } 
     else{
         greater = a;
