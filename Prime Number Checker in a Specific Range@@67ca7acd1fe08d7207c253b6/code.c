@@ -12,7 +12,7 @@ int isPrime(int n){
 }
 int printPrimeInRange(int a,int b){
     int greater = a;
-    int smaller = b
+    int smaller = b;
     if(b > greater){
         greater = a;
         smaller = b;
