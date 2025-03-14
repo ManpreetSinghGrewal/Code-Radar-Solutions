@@ -17,10 +17,6 @@ int printPrimesInRange(int a,int b){
         greater = a;
         smaller = b;
     } 
-    else{
-        greater = a;
-        smaller = b;
-    }
     for(int i=smaller;i<=greater;i++ ){
         if(isPrime(i)){
             printf("%d ",i);
