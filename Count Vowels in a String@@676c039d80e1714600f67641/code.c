@@ -7,7 +7,7 @@ int main() {
 
     int vsize = 0;             // Initialize vowel counter
     for (int i = 0; str[i] != '\0'; i++) {
-        if (str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U') {
+        if (str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U' || str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
             vsize++;
         }
     }
