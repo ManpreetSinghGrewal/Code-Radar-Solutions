@@ -7,16 +7,16 @@ char* welcome() {
 
 int main() {
     char str[99];
-    scanf("%98[^\n]",&str);
-    int vsize = 0;
-    while(str[vsize]){
-        if(str[vsize] == 'A' || str[vsize] == 'E' || str[vsize] =='I' || str[vsize] =='O' || str[vsize] == 'U'){
+    printf("%s\n", welcome()); // Optional: Display welcome message
+    scanf("%98[^\n]", str);    // Take input while preventing buffer overflow
+
+    int vsize = 0;             // Initialize vowel counter
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U') {
             vsize++;
         }
-        else{
-            vsize = vsize + 0;
-        }
     }
-    printf("%d",vsize-1);
+
+    printf("Number of uppercase vowels: %d\n", vsize); // Output the count
     return 0;
 }
