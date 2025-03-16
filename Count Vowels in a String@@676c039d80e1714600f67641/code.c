@@ -3,7 +3,6 @@
 
 int main() {
     char str[99];
-    printf("%s\n", welcome()); // Optional: Display welcome message
     scanf("%98[^\n]", str);    // Take input while preventing buffer overflow
 
     int vsize = 0;             // Initialize vowel counter
