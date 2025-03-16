@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     char str[99];
     printf("%s\n", welcome()); // Optional: Display welcome message
@@ -17,6 +13,6 @@ int main() {
         }
     }
 
-    printf("Number of uppercase vowels: %d\n", vsize); // Output the count
+    printf("%d", vsize); // Output the count
     return 0;
 }
