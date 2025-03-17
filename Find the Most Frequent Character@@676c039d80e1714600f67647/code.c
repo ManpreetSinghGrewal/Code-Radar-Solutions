@@ -17,6 +17,6 @@ int main(){
             mc = c;
             mf = str[i];
         } 
-    }printf("%d",mc);
+    }printf("%c",mf);
 
 }
