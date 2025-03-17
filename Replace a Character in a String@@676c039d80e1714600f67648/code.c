@@ -11,8 +11,7 @@ int main() {
     int l= strlen(str);
     for(int i= 0;i<l;i++){
         if(str[i] == a){
-            int temp = b;
-            str[i] = temp;
+            str[i] = b;
         }
     }
     printf("%s",str);
