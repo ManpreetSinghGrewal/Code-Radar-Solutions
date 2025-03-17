@@ -1,15 +1,9 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
+#include <string.h>
 int main() {
-    char name[40];
-    for(int i=0;i<40;i++){
-        scanf("%c",name[i]);
-    }
-  
-
+    char str[99];
+    scanf("%s",&str);
+    int l = strlen(str);
+    
     return 0;
 }
