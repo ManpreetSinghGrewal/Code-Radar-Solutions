@@ -6,7 +6,7 @@ int main() {
     int l = strlen(str);
     char temp[99];
     for(int i=0;i<l;i++){
-        str[i]= temp[l-1-i];
+        temp[l-1-i] = str[i];
     }  
     if(strcmp(str,temp) == 0){
         printf("Yes");
