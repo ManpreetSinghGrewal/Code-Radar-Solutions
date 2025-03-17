@@ -4,12 +4,13 @@
 int main(){
     char str[99];
     char a;
-    scanf("%d",str);
-    scanf("%d",&a);
-    int count =0;
-    for(int i =0;i<strlen(str);i++){
+    scanf("%s",str);
+    scanf("%c",&a);
+    int count = 0;
+    int l = strlen(str);
+    for(int i =0;i<l;i++){
         if(str[i] == a){
-            count++;
+            count = count + 1;
         }
     }
     printf("%d",count);
