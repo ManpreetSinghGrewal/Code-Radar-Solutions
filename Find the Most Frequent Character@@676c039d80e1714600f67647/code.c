@@ -4,6 +4,7 @@
 int main(){
     char str[1000];
     int mc = 0;
+    char mf;
     fgets(str,sizeof(str),stdin);
     for(int i = 0;i<strlen(str);i++){
         int c = 0;
