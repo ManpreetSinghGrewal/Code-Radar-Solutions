@@ -1,24 +1,23 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
-int bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j].roll > arr[j + 1].roll) {
-                // Swap arr[j] and arr[j + 1]
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-    }
-    return 0;
-}
 struct Student{
     int roll;
     char name[99];
     float marks;    
 };
+void bubbleSort(struct Student students[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (students[j].marks < students[j + 1].marks) { // Sort in descending order
+                // Swap students[j] and students[j + 1]
+                struct Student temp = students[j];
+                students[j] = students[j + 1];
+                students[j + 1] = temp;
+            }
+        }
+    }
+}
 int main() {
     int n;
     scanf("%d",&n);
