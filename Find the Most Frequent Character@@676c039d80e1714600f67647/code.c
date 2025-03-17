@@ -7,7 +7,6 @@ int main() {
     char mf = '\0'; // Most frequent character
 
     // Input the string
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
     // Remove the newline character if present
