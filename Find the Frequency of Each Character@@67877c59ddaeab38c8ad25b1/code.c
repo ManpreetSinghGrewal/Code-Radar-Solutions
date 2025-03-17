@@ -23,7 +23,7 @@ int main(){
     }
      for (int i = 0; i < l; i++) {
         if (freq[i] != 0) {
-            printf("%c %d\n", str[i], freq[i]);
+            printf("%c: %d\n", str[i], freq[i]);
         }
      }
 }
