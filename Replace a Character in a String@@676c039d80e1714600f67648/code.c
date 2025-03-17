@@ -10,7 +10,7 @@ int main() {
     scanf("%c",&b);
     int l= strlen(str);
     for(int i= 0;i<l;i++){
-        if(str[i] = a){
+        if(str[i] == a){
             int temp = b;
             str[i] = temp;
         }
