@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char str[99];
-    scanf("%s",str);
+    fgets(str, sizeof(str), stdin);
     int l = strlen(str);
     int freq[100];
     for (int i = 0; i < l; i++) {
