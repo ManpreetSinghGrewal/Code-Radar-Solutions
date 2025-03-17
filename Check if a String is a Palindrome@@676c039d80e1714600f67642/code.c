@@ -8,6 +8,7 @@ int main() {
     for(int i=0;i<l;i++){
         temp[l-1-i] = str[i];
     }  
+    temp l = "\0";
     if(strcmp(str,temp) == 0){
         printf("Yes");
     }
