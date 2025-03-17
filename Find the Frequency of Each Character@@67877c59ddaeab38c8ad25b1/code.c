@@ -13,5 +13,6 @@ int main(){
             }
         }
         printf("%c: %d",str[i],count);
+        printf("\n");
     }
 }
