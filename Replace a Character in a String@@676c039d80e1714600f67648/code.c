@@ -12,7 +12,7 @@ int main() {
     for(int i= 0;i<l;i++){
         if(str[i] == a){
             str[i] = b;
-            printf("%s"str);
+            printf("%s",str);
         }
     }
     printf("%s",str);
