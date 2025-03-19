@@ -13,8 +13,8 @@ void selectionSort(char arr[][99],int n){
                 mi = j;
             }
         }
-        char temp[99] = arr[i];
-        arr[i] = arr[mi];
+        char temp[99] = arr[i][99];
+        arr[i] = arr[mi][99];
         arr[mi]= temp[99];
     }
 
