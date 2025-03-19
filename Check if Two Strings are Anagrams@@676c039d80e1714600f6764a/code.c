@@ -6,4 +6,10 @@ int main(){
     char str2[99];
     scanf("%s",str1);
     scanf("%s",str2);
+    if(strcmp(str1,str2) ==0){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
 }
