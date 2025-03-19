@@ -14,5 +14,5 @@ int findOccurrence(int arr[],int n,int target,char mode){
             }
         }
     }
-    return 0;
+    return -1;
 }
