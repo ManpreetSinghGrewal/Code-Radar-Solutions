@@ -15,12 +15,16 @@ int selectionSort(int arr[],int n){
 }
 int kthSmallest(int arr[],int n,int target){
     selectionSort(arr,n);
+    int l = -1;
     int result;
     if(target > 0 || target<=n){
        for(int i=0;i<n;i++){
         result = arr[target-1];
         return result;
-       }return -1; 
+       }
+    }
+    else{
+        return l;
     }
     
 }
