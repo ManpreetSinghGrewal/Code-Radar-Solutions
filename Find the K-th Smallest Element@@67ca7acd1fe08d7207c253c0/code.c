@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(int arr[n],int n){
+int selectionSort(int arr[],int n){
     int mi ;
     for(int i =0;i<n;i++){
         mi = i;
@@ -14,7 +14,7 @@ int selectionSort(int arr[n],int n){
     }
 }
 int kthSmallest(int arr[],int n,int target){
-    selectionSort[arr[],int n];
+    selectionSort[arr[n],int n];
     int result;
     if(target > 0 || target<=n){
        for(int i=0;i<n;i++){
