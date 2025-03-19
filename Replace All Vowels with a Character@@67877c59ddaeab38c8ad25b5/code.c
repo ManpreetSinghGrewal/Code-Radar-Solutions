@@ -22,7 +22,7 @@ int main() {
 
     replace_vowels(str, c);
 
-    printf("%s\n", str); // Print the modified string
+    printf("%s", str); // Print the modified string
 
     return 0;
 }
