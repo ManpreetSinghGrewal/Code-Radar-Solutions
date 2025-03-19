@@ -23,9 +23,9 @@ int kthSmallest(int arr[],int n,int target){
         return result;
        }
     }
-    else if(target <0 || target > n){
+    if(target <0 || target > n){
         result = -1;
         return result;
-        
+
     }
 }
