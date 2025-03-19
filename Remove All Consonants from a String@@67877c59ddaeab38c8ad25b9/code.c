@@ -2,12 +2,8 @@
 #include <string.h>
 
 void printArray(char arr[], int size) {
-    for (int i = 0; i < size; i++) { // Start from 0
-        if (i > 0 && arr[i - 1] == ' ') {
-            printf(" %c", arr[i]);
-        } else {
-            printf("%c", arr[i]);
-        }
+    for (int i = 0; i < size; i++) { // Iterate and print each character
+        printf("%c", arr[i]);
     }
 }
 
@@ -21,17 +17,18 @@ int main() {
         n--;
     }
 
-    char temp[100]; // Ensure temp has enough space
+    char temp[100]; // Array to store vowels and spaces
     int tempIndex = 0;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] == 'a' || arr[i] == 'e' || arr[i] == 'i' || arr[i] == 'o' || arr[i] == 'u' ||
-            arr[i] == 'A' || arr[i] == 'E' || arr[i] == 'I' || arr[i] == 'O' || arr[i] == 'U') {
+            arr[i] == 'A' || arr[i] == 'E' || arr[i] == 'I' || arr[i] == 'O' || arr[i] == 'U' || 
+            arr[i] == ' ') { // Include vowels and spaces
             temp[tempIndex] = arr[i];
             tempIndex++;
         }
     }
 
-    printArray(temp, tempIndex);
+    printArray(temp, tempIndex); // Print the result
     return 0;
 }
