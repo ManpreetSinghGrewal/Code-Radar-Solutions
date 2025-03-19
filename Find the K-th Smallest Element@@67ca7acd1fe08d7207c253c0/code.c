@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(int arr[],int n){
+int selectionSort(int arr[n],int n){
     int mi ;
     for(int i =0;i<n;i++){
         mi = i;
