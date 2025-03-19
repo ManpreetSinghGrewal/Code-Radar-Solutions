@@ -4,7 +4,7 @@ int binarySearch(int arr[],int n,int target){
         if(arr[i] == target){
             return i;
         }
-        else if(arr[i] == arr[i+1]){
+        if(arr[i] == arr[i+1]){
             printf("3");
         }
     }
