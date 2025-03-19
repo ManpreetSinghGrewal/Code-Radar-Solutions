@@ -21,8 +21,11 @@ int kthSmallest(int arr[],int n,int target){
        for(int i=0;i<n;i++){
         result = arr[target-1];
         return result;
-        return 0;
        }
     }
-    return -1;
+    else if(target <0 || target > n){
+        result = -1;
+        return result;
+        
+    }
 }
