@@ -8,7 +8,7 @@ void selectionSort(int arr[],int n){
     int mi;
     for(int i =0;i<n;i++){
         mi = i;
-        for(int j =i+1;i<n;j++){
+        for(int j =i+1;j<n;j++){
             if(arr[j] <arr[mi]){
                 mi = j;
             }
