@@ -1,9 +1,11 @@
 // Your code here...
 #include <stdio.h>
+#include <math.h>
+
 void bsort(int arr[],int n){
     for(int i = 0;i<n-1;i++){
         for(int j = 0;j<n-i-1;j++){
-            if(arr[j]>arr[j+1]){
+            if(abs(arr[j])>abs(arr[j+1])){
 
             int temp = arr[j];
             arr[j] = arr[j+1];
@@ -24,6 +26,7 @@ int main(){
     if(n<2){
         printf("-1");
     }
+    else if
     else{
         printf("%d",arr[n-3]);
     }
