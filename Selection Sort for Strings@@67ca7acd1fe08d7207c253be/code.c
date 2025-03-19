@@ -11,7 +11,7 @@ void selectionSort(char arr[][100],int n){
     for(int i =0;i<n;i++){
         mi = i;
         for(int j =i+1;j<n;j++){
-            if(arr[j][0]<arr[mi][0]){
+            if(strcpy(arr[j], arr[mi])<0){
                 mi = j;
             }
         }
