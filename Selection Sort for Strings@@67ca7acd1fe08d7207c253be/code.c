@@ -5,9 +5,9 @@ int printArray(char arr[][99],int n){
         printf("%s ",arr[i]);
     }
 }
-void selectionSort(char arr[][99],int n){
+void selectionSort(char arr[][100],int n){
     int mi;
-    char temp[99];
+    char temp[100];
     for(int i =0;i<n;i++){
         mi = i;
         for(int j =i+1;j<n;j++){
