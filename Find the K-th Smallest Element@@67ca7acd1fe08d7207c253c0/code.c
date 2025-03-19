@@ -14,7 +14,7 @@ int selectionSort(int arr[],int n){
     }
 }
 int kthSmallest(int arr[],int n,int target){
-    selectionSort(int arr[],int n);
+    selectionSort(arr,n);
     int result;
     if(target > 0 || target<=n){
        for(int i=0;i<n;i++){
