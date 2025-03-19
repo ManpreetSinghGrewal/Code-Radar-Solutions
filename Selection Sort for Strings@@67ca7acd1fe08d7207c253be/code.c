@@ -6,6 +6,7 @@ int printArray(char arr[][99],int n){
 }
 void selectionSort(char arr[][99],int n){
     int mi;
+    char temp[99];
     for(int i =0;i<n;i++){
         mi = i;
         for(int j =i+1;j<n;j++){
@@ -13,9 +14,9 @@ void selectionSort(char arr[][99],int n){
                 mi = j;
             }
         }
-        char temp[99] = arr[i][99];
-        arr[i] = arr[mi][99];
-        arr[mi]= temp[99];
+        strcpy(temp,arr[i]);
+        strcpy(arr[i],arr[mi]);
+        strcpy(arr[mi],temp);
     }
 
 }
