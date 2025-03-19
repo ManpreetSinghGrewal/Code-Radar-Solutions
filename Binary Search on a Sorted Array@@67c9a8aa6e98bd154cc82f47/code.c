@@ -4,8 +4,8 @@ int binarySearch(int arr[],int n,int target){
         if(arr[i] == target){
             return i;
         }
-        if(arr[i] == arr[i+1]){
-            return 3;
+        else if(arr[i] == arr[i+1]){
+            printf("3");
         }
     }
     return -1;
