@@ -1,4 +1,5 @@
 // Your code here...
+#include <string.h>
 int printArray(char arr[][99],int n){
     for(int i =0;i<n;i++){
         printf("%s ",arr[i]);
