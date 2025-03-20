@@ -11,4 +11,5 @@ int main(){
             a = str[i];
         }
     }
+    return 0;
 }
