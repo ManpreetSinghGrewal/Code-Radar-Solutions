@@ -8,7 +8,7 @@ int findKthMissing(int arr[],int n,int k){
     }
     int result = l;
     for(int i = 0;i<k;i++){
-        result = result + i
+        result = result + i;
     }
     return result;
 
