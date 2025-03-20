@@ -8,9 +8,10 @@ int main(){
     for(int i =0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int k = 0;
+    int k = 1;
     for(int i=0;i<n;i++){
-            if(arr[i] == k ){
+        int l = 0;
+            if(arr[i] == k || arr[i] ==l ){
                 k++;
             }
     }
