@@ -11,7 +11,7 @@ int main(){
     for(int i =0;i<l;i++){
         if(str[i] != ' '){
             temp[j] = str[i];
-        j++
+            j++;
         }
         
     }
