@@ -15,6 +15,9 @@ int main() {
             if (upper != '\n') {
                 output[j++] = upper; // Add to output if not a vowel
             }
+            if (upper == ' '){
+                output[j] = ' ';
+            }
         }
     }
 
