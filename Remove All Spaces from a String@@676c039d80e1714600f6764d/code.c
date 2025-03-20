@@ -7,7 +7,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     str[strcspn(str,"\n")] ='\0';
     int l = strlen(str);
-    for(int i =0;l;i++){
+    for(int i =0;i<l;i++){
         str[j++] = str[i];
     }
     str[j] = '\0';
