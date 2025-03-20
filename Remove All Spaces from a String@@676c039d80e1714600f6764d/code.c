@@ -7,14 +7,11 @@ int main(){
     int j =0;
     fgets(str,sizeof(str),stdin);
     str[strcspn(str,"\n")] ='\0';
-    int l = strlen(str);
-    for(int i =0;i<l;i++){
-        if(str[i] != ' '){
+    int j =0 ;
+    for(int i = 0;i<=l;i++){
+        if(str[i] != '\0'){
             temp[j] = str[i];
-            j++;
+            j++; 
         }
-        
     }
-    str[j] = '\0';
-    printf("%s",temp);
 }
