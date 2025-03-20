@@ -9,7 +9,7 @@ int main(){
     str[strcspn(str,"\n")] ='\0';
     int l = strlen(str);
     for(int i = 0;i<=l;i++){
-        if(str[i] != '\0'){
+        if(str[i] != ' '){
             temp[j] = str[i];
             j++; 
         }
