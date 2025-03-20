@@ -13,8 +13,6 @@ int main(){
             if(arr[i] == k || arr[i] == 0){
                 k++;
             }
-            return 0;
-            
     }
     if(k == n - 1){
         k++;
