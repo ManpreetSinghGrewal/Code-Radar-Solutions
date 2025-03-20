@@ -13,6 +13,11 @@ int main(){
             if(arr[i] == k || arr[i] == 0){
                 k++;
             }
+            
     }
+    if(k == n - 1){
+        k++;
+    }
+
     printf("%d",k);
 }
