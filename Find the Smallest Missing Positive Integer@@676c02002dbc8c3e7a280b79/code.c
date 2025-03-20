@@ -9,15 +9,12 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int k = 1;
-    int l =0;
     for(int i=0;i<n;i++){
             if(arr[i] == k ){
-                k++;
-            }
-            if(arr[i] == l){
                 k++;
             }
     }
 
     printf("%d",k);
+    return 0;
 }
