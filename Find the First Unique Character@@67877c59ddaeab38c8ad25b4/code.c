@@ -14,7 +14,7 @@ int main(){
         }
         if(c == 1){
             printf("%c",str[i]);
-            return 0;
+            break;
         }
     }
     printf("-");
