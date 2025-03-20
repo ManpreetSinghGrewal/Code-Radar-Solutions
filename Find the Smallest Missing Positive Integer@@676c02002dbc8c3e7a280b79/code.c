@@ -14,9 +14,6 @@ int main(){
                 k++;
             }
     }
-    if(k == n - 1){
-        k++;
-    }
 
     printf("%d",k);
 }
