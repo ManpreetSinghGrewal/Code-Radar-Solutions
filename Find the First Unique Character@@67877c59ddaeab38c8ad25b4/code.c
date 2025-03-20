@@ -8,8 +8,8 @@ int main(){
     for(int i = 0;str[i]!='\0';i++){
         int c= 0;
         for(int j = 0;str[j]!='\0';j++){
-            if(arr[i] == arr[j]){
-                c++
+            if(str[i] == str[j]){
+                c++;
             }
         }
         if(c == 1){
