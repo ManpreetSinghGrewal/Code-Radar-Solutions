@@ -14,4 +14,5 @@ int main(){
             j++; 
         }
     }
+    printf("%s",temp);
 }
