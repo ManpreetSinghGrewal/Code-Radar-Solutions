@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; input[i] != '\0'; i++) {
         if (isalpha(input[i])) { // Check if it's a letter
             char upper = toupper(input[i]); // Convert to uppercase
-            if (upper != '\0') {
+            if (upper != '0') {
                 output[j++] = upper; // Add to output if not a vowel
             }
         }
