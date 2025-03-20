@@ -3,13 +3,18 @@
 #include <string.h>
 int main(){
     char str[100];
+    char temp[100];
     int j =0;
     fgets(str,sizeof(str),stdin);
     str[strcspn(str,"\n")] ='\0';
     int l = strlen(str);
     for(int i =0;i<l;i++){
-        str[j++] = str[i];
+        if(str[i] != ' '){
+            temp[j] = str[i];
+        j++
+        }
+        
     }
     str[j] = '\0';
-    printf("%s",str);
+    printf("%s",temp);
 }
