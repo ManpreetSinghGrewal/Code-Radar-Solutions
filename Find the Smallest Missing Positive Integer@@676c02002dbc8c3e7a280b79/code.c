@@ -14,11 +14,11 @@ int main(){
                 k++;
             }
             return 0;
-           if(k == n - 1){
-        k++;
-    } 
+            
     }
-    
+    if(k == n - 1){
+        k++;
+    }
 
     printf("%d",k);
 }
