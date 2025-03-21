@@ -19,7 +19,7 @@ int main(){
     scanf("%s",str2);
     bsort(str1);
     bsort(str2);
-    if(strcmp(s1,s2) == 0){
+    if(strcmp(str1,str2) == 0){
         printf("Yes");
     }
     else{
