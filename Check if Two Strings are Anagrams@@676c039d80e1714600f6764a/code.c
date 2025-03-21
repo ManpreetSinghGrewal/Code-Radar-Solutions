@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
-int bsort(char arr[];int n){
+int bsort(char arr[99];int n){
     for(int i = 0;arr[i] !='\0';i++){
         for(int j = 0;arr[j] !='\0'){
             if(arr[j] >arr[j+1]){
