@@ -3,7 +3,7 @@
 #include <string.h>
 int bsort(int n;char arr[n]){
     for(int i = 0;arr[i] !='\0';i++){
-        for(int j = 0;arr[j] !='\0'){
+        for(int j = 0;arr[j] !='\0';j++){
             if(arr[j] >arr[j+1]){
                 char temp = arr[j];
                 arr[j] = arr[j+1];
