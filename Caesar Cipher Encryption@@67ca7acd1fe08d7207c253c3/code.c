@@ -7,8 +7,7 @@ void caesarCipher(char str[100], int shift,char encrypted[100]){
     for(int i= 0;i<l;i++){
         if(str[i]>='a' && str[i]<= 'z'){
             int c = str[i] + shift;
-            int str[i] = c;
-            encrypted[j] = str[i];
+            encrypted[j] = c;
             j++;
         }
         else{
