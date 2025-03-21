@@ -20,7 +20,7 @@ int main(){
     scanf("%s",str2);
     char s1 = bsort(str1,99);
     char s2 = bsort(str2,99);
-    if(strcmp(s1,s2) == '\0'){
+    if(strcmp(s1,s2) == 0){
         printf("Yes");
     }
     else{
