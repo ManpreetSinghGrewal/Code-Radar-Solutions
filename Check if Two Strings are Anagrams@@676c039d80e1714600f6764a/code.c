@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 void bsort(char arr[]){
-    for(int i = 0;arr[i] !='\0';i++){
-        for(int j = 0;arr[j] !='\0';j++){
+    int n = strlen(arr);
+    for(int i = 0;i<n-1;i++){
+        for(int j = 0;j<n-i-1;j++){
             if(arr[j] >arr[j+1]){
                 char temp = arr[j];
                 arr[j] = arr[j+1];
