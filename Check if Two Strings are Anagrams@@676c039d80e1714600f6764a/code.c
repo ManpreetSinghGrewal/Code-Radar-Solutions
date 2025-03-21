@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
-int bsort(char arr[]){
+void bsort(char arr[]){
     for(int i = 0;arr[i] !='\0';i++){
         for(int j = 0;arr[j] !='\0';j++){
             if(arr[j] >arr[j+1]){
@@ -11,15 +11,14 @@ int bsort(char arr[]){
             }
         }
     }
-    return arr;
 }
 int main(){
     char str1[99];
     char str2[99];
     scanf("%s",str1);
     scanf("%s",str2);
-    char s1 = bsort(str1);
-    char s2 = bsort(str2);
+    bsort(str1);
+    bsort(str2);
     if(strcmp(s1,s2) == 0){
         printf("Yes");
     }
