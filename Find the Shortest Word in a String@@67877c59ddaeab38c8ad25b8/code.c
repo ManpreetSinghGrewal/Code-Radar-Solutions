@@ -3,7 +3,6 @@
 
 int main() {
     char str[100];
-    printf("Enter a sentence: ");
     fgets(str, sizeof(str), stdin); // Reads full line including spaces
 
     // Remove the newline character if present
