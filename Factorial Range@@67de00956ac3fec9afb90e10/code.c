@@ -6,7 +6,7 @@ int factorial(int n){
     else{
         return factorial(n) *factorial(n-1);
     }
-    return fac;
+    
 }
 int factorialRange(int start,int end){
     if(start < 0 || end <0 || start > end){
