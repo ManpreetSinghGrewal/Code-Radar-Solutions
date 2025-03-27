@@ -14,6 +14,10 @@ int factorial(int n){
     return fac;
 }
 int factorialRange(int start,int end){
+    if(start < 0 || end <0){
+        printf("Invalid range");
+        return 0;
+    }
     for(int i = start;i<=end;i++){
         int k = factorial(i);
         printf("%d",k);
