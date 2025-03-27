@@ -24,6 +24,6 @@ int main() {
         token = strtok(NULL, " "); // Get next token
     }
 
-    printf("Smallest token: %s\n", smallest);
+    printf("%s\n", smallest);
     return 0;
 }
