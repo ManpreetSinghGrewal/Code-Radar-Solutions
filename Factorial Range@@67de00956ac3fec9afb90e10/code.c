@@ -3,7 +3,6 @@ int factorial(int n){
     int fac = 1;
     if(n<=1){
         fac = 1;
-        return fac;
     }
     else{
         for(int i=1;i<=n;i++){
