@@ -1,6 +1,5 @@
 // Your code here...
 int factorial(int n){
-    int s = 1;
     int fac = 1;
     if(n<=1){
         fac = 1;
