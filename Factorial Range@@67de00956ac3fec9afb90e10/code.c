@@ -8,14 +8,13 @@ int factorial(int n){
     }
     else{
         for(int i=0;i<n;i++){
-            s = s*i; 
+            fac = fac * i; 
         }
-        fac = s;
     }
     return fac;
 }
 int factorialRange(int start,int end){
-    for(int i = start;i<end;i++){
+    for(int i = start;i<=end;i++){
         int k = factorial(i);
         printf("%d",k);
         printf("\n");
