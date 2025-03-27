@@ -10,8 +10,8 @@ int factorial(int n){
         for(int i=0;i<n;i++){
             fac = fac*i; 
         }
-        return fac;
     }
+    return fac;
 }
 int factorialRange(int start,int end){
     for(int i = start;i<end;i++){
