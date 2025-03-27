@@ -23,14 +23,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bsort(arr,n);
-    if(n<2){
+    int sm;
+    if(arr[0] == arr[n-1]){
         printf("-1");
+        return 0;
     }
-    else if(for(int i =0;i<n;i++){
-        if(arr[i] == arr[i+1] )
-    } )
     else{
         printf("%d",arr[n-3]);
     }
-    
 }
