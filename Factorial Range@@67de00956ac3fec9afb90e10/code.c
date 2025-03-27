@@ -1,15 +1,10 @@
 // Your code here...
 int factorial(int n){
-    int s = 1;
-    int fac = 1;
     if(n<=1){
-        fac = 1;
-        return fac;
+        return 1;
     }
     else{
-        for(int i=1;i<=n;i++){
-            fac = fac * i; 
-        }
+        return factorial(n) *factorial(n-1);
     }
     return fac;
 }
