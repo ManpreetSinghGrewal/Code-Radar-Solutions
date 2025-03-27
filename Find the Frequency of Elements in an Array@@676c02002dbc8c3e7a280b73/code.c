@@ -1,28 +1,22 @@
 #include <stdio.h>
 
 void findFrequency(int arr[], int n) {
-    int freq[n];  // Auxiliary array to store frequencies
-
-    // Initialize frequency array with -1
+    int freq[n]; 
     for (int i = 0; i < n; i++) {
         freq[i] = -1;
     }
-
-    // Traverse the input array and count frequencies
     for (int i = 0; i < n; i++) {
         int count = 1;
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
                 count++;
-                freq[j] = 0;  // Mark this element as counted
+                freq[j] = 0;  
             }
         }
         if (freq[i] != 0) {
             freq[i] = count;
         }
     }
-
-    // Print the frequencies
     
     for (int i = 0; i < n; i++) {
         if (freq[i] != 0) {
