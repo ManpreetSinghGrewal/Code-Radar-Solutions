@@ -2,7 +2,7 @@
 #include <stdio.h>
 void rwg(int arr[],int n){
     int mfr = -1;
-    for(int i=n-1;i>0;i--){
+    for(int i=n-1;i>=0;i--){
         int c = arr[i];
         arr[i] = mfr;
         if(c > mfr){
