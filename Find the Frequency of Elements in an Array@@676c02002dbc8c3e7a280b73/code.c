@@ -42,6 +42,7 @@ int main() {
         }
         if(arr[i] != -1){
             printf("%d %d ",arr[i],c);
+            printf("/n");
         }
     }
 
