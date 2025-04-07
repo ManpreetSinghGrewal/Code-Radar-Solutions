@@ -14,7 +14,7 @@ int main(){
     int l = strlen(str);
     char temp[l];
     int j= 0;
-    for(int i = strlen(str)-1;i>=0;i++){
+    for(int i = strlen(str) - 1;i>=0;i++){
         temp[j] = str[i];
         j++;
     }
