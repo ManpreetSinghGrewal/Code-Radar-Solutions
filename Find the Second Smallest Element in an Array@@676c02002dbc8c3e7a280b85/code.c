@@ -33,7 +33,7 @@ int main(){
         return 0;
     }
     if(
-        arr(0) == arr[1]
+        arr[0] == arr[1]
     ){
         printf("%d",arr[2]);
         return 0 ;
