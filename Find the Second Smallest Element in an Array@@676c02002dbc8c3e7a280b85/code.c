@@ -23,7 +23,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bsort(arr,n);
-    
-        printf("%d",arr[1]);
+    int i = 0;
+    if(arr[i] == arr[i+1]){
+        printf("-1");
+        return 0;
+    }
+    printf("%d",arr[1]);
     
 }
