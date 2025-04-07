@@ -11,7 +11,7 @@ int main(){
             }
         }
     }
-    l = strlen(str);
+    int l = strlen(str);
     char temp[l];
     int j;
     for(int i = l-1;i>=0;i--){
