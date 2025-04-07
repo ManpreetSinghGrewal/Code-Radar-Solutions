@@ -28,7 +28,7 @@ int main(){
         printf("-1");
         return 0;
     }
-    if(arr[i] == arr[i+1]){
+    if(arr[i] == arr[i+2]){
         printf("-1");
         return 0;
     }
