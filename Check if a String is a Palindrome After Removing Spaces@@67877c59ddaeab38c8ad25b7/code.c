@@ -13,10 +13,10 @@ int main(){
     }
     int l = strlen(str);
     char temp[l];
-    int j;
-    for(int i = l-1;i>=0;i--){
-        temp[j] = str[i];
-        j++;
-    }
+    int j= 0;
+    // for(int i = l-1;i>=0;i--){
+    //     temp[j] = str[i];
+    //     j++;
+    // }
 
 }
