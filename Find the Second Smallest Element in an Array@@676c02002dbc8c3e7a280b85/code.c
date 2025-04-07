@@ -32,6 +32,12 @@ int main(){
         printf("-1");
         return 0;
     }
+    if(
+        arr(0) == arr[1]
+    ){
+        printf("%d",arr[2]);
+        return 0 ;
+    }
     printf("%d",arr[1]);
     
 }
