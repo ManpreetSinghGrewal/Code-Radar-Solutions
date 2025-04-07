@@ -24,7 +24,7 @@ int main(){
     }
     bsort(arr,n);
     int i = 0;
-    if(n = 1){
+    if(n == 1){
         printf("-1");
         return 0;
     }
