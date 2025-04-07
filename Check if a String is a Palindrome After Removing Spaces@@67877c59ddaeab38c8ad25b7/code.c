@@ -14,8 +14,14 @@ int main(){
     int l = strlen(str);
     char temp[l];
     int j= 0;
-    for(int i = l- 1;i>=0;i--){
+    for(int i = l - 1;i>=0;i--){
         temp[j] = str[i];
         j++;
+    }
+    if(strcmp(temp,str) == 0){
+        printf("Yes");
+    }
+    else{
+        printf("No");
     }
 }
