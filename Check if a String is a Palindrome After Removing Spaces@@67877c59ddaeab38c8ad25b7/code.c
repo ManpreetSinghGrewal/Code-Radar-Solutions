@@ -3,6 +3,6 @@
 #include <string.h>
 int main(){
     char str[100];
-    gets(str);
-    
+    fgets(str);
+
 }
