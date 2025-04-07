@@ -18,6 +18,5 @@ int main(){
         temp[j] = str[i];
         j++;
     }
-    printf("%s",temp);
 
 }
