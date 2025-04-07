@@ -29,6 +29,6 @@ int main(){
         return 0;
     }
     else{
-        printf("%d",arr[n-3]);
+        printf("%d",arr[1]);
     }
 }
