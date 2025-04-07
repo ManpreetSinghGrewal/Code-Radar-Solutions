@@ -12,7 +12,7 @@ int main(){
         }
     }
     int l = strlen(str);
-    char temp[l];
+    char temp[];
     int j= 0;
     for(int i = l - 1;i>=0;i--){
         temp[j] = str[i];
